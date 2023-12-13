@@ -4,7 +4,7 @@ import time
 
 def test_echo_single_byte():  
     time.sleep(3)
-    assert echo_serial('1'.encode()) == '1'  
+    assert echo_serial("1".encode()) == '1'  
 
 def test_echo_multiple_bytes():  
     with pytest.raises(TypeError):  
