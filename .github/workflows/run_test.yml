@@ -21,9 +21,8 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi; pip install coverage; pip install pytest; export PYTHONIOENCODING=utf8;
       - name: Flash STM32_FW 
         run: |  
-          cd src/STM32_FW;make;cp build/STM32_FW.elf ../xpacks/.bin/STM32_fw.elf;
+          cd src/STM32_FW;make;cp build/STM32_FW.elf ../xpacks/.bin/STM32_FW.elf;
           sudo ../xpacks/.bin/openocd -s "/usr/local/share/openocd/scripts" -f "interface/stlink-v2.cfg" -f "target/stm32f4x.cfg" -c "program STM32_FW.elf verify reset exit"
-        continue-on-error: true 
       - name: Test with pytest  
         run: |  
           python -m coverage run -m pytest  -v -s  
