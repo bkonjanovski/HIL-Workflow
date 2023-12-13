@@ -22,7 +22,7 @@ jobs:
       - name: Flash STM32_FW 
         run: |  
           cd src/STM32_FW;make;cp build/STM32_FW.elf ../xpacks/.bin/STM32_FW.elf;
-          sudo ../xpacks/.bin/openocd -s "/usr/local/share/openocd/scripts" -f "interface/stlink-v2.cfg" -f "target/stm32f4x.cfg" -c "program STM32_FW.elf verify reset exit"
+          sudo ../xpacks/.bin/openocd -s "/usr/local/share/openocd/scripts" -f "interface/stlink-v2.cfg" -f "target/stm32f4x.cfg" -c "program STM32_FW.elf verify reset exit";
       - name: Test with pytest  
         run: |  
           python -m coverage run -m pytest  -v -s  
