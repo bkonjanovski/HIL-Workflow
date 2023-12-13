@@ -1,6 +1,6 @@
 import serial
 
-ser = serial.Serial('/dev/ttyUSB0', 9600)
+ser = serial.Serial('/dev/ttyUSB0', 115200)
  
 def echo_serial(input: bytes):
         if not isinstance(input, (bytes)) or len(input) != 1:  
