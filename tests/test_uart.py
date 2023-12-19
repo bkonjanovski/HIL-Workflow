@@ -4,7 +4,7 @@ import time
 
 def test_gpio_sgnal():  
      time.sleep(3)
-     assert check_gpio_signal() == 'TEST-TX'
+     assert check_gpio_signal() == "TEST-TX"
 
 #def test_echo_single_byte():  
 #    time.sleep(3)

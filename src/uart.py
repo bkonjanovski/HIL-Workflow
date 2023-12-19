@@ -16,6 +16,6 @@ GPIO.setup(17,GPIO.OUT)
 
 def check_gpio_signal(): 
     GPIO.output(17, GPIO.HIGH)
-    res = ser.read()
+    res = ser.read(7)
     return res.decode()
 
