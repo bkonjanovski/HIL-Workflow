@@ -1,9 +1,9 @@
-ARM GAS  /tmp/ccoMIT4g.s 			page 1
+ARM GAS  /tmp/ccEwB5sV.s 			page 1
 
 
-   1              		.cpu cortex-m4
+   1              		.cpu cortex-m7
    2              		.arch armv7e-m
-   3              		.fpu fpv4-sp-d16
+   3              		.fpu fpv5-sp-d16
    4              		.eabi_attribute 27, 1
    5              		.eabi_attribute 28, 1
    6              		.eabi_attribute 20, 1
@@ -28,7 +28,7 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
   25              		.thumb_func
   27              	USBH_CtlSendSetup:
   28              	.LVL0:
-  29              	.LFB137:
+  29              	.LFB144:
    1:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** /**
    2:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c ****   ******************************************************************************
    3:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c ****   * @file    usbh_ioreq.c
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
   27:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c ****   * @{
   28:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c ****   */
   29:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** 
-ARM GAS  /tmp/ccoMIT4g.s 			page 2
+ARM GAS  /tmp/ccEwB5sV.s 			page 2
 
 
   30:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** /** @defgroup USBH_IOREQ
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
   84:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c ****   * @brief  USBH_CtlSendSetup
   85:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c ****   *         Sends the Setup Packet to the Device
   86:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c ****   * @param  phost: Host Handle
-ARM GAS  /tmp/ccoMIT4g.s 			page 3
+ARM GAS  /tmp/ccEwB5sV.s 			page 3
 
 
   87:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c ****   * @param  buff: Buffer pointer from which the Data will be send to Device
@@ -178,13 +178,13 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
   65 001e 04B0     		add	sp, sp, #16
   66              	.LCFI2:
   67              		.cfi_def_cfa_offset 8
-ARM GAS  /tmp/ccoMIT4g.s 			page 4
+ARM GAS  /tmp/ccEwB5sV.s 			page 4
 
 
   68              		@ sp needed
   69 0020 10BD     		pop	{r4, pc}
   70              		.cfi_endproc
-  71              	.LFE137:
+  71              	.LFE144:
   73              		.section	.text.USBH_CtlSendData,"ax",%progbits
   74              		.align	1
   75              		.global	USBH_CtlSendData
@@ -193,7 +193,7 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
   78              		.thumb_func
   80              	USBH_CtlSendData:
   81              	.LVL5:
-  82              	.LFB138:
+  82              	.LFB145:
  106:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** 
  107:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** 
  108:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** /**
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
  106              		.loc 1 123 6 view .LVU13
  107 0010 05B1     		cbz	r5, .L4
  124:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c ****   {
-ARM GAS  /tmp/ccoMIT4g.s 			page 5
+ARM GAS  /tmp/ccEwB5sV.s 			page 5
 
 
  125:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c ****     do_ping = 0U;
@@ -284,7 +284,7 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
  134 002a 30BD     		pop	{r4, r5, pc}
  135              		.loc 1 138 1 view .LVU21
  136              		.cfi_endproc
- 137              	.LFE138:
+ 137              	.LFE145:
  139              		.section	.text.USBH_CtlReceiveData,"ax",%progbits
  140              		.align	1
  141              		.global	USBH_CtlReceiveData
@@ -293,12 +293,12 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
  144              		.thumb_func
  146              	USBH_CtlReceiveData:
  147              	.LVL12:
- 148              	.LFB139:
+ 148              	.LFB146:
  139:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** 
  140:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** 
  141:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** /**
  142:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c ****   * @brief  USBH_CtlReceiveData
-ARM GAS  /tmp/ccoMIT4g.s 			page 6
+ARM GAS  /tmp/ccEwB5sV.s 			page 6
 
 
  143:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c ****   *         Receives the Device Response to the Setup Packet
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
  164:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** 
  165:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** }
  182              		.loc 1 165 1 is_stmt 0 view .LVU29
-ARM GAS  /tmp/ccoMIT4g.s 			page 7
+ARM GAS  /tmp/ccEwB5sV.s 			page 7
 
 
  183 001a 2046     		mov	r0, r4
@@ -369,7 +369,7 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
  188 001e 30BD     		pop	{r4, r5, pc}
  189              		.loc 1 165 1 view .LVU30
  190              		.cfi_endproc
- 191              	.LFE139:
+ 191              	.LFE146:
  193              		.section	.text.USBH_BulkSendData,"ax",%progbits
  194              		.align	1
  195              		.global	USBH_BulkSendData
@@ -378,7 +378,7 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
  198              		.thumb_func
  200              	USBH_BulkSendData:
  201              	.LVL17:
- 202              	.LFB140:
+ 202              	.LFB147:
  166:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** 
  167:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** 
  168:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** /**
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
  222              	.LVL19:
  183:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c ****   if (phost->device.speed != USBH_SPEED_HIGH)
  223              		.loc 1 183 3 is_stmt 1 view .LVU34
-ARM GAS  /tmp/ccoMIT4g.s 			page 8
+ARM GAS  /tmp/ccEwB5sV.s 			page 8
 
 
  224              		.loc 1 183 20 is_stmt 0 view .LVU35
@@ -468,7 +468,7 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
  254 002a 30BD     		pop	{r4, r5, pc}
  255              		.loc 1 197 1 view .LVU44
  256              		.cfi_endproc
- 257              	.LFE140:
+ 257              	.LFE147:
  259              		.section	.text.USBH_BulkReceiveData,"ax",%progbits
  260              		.align	1
  261              		.global	USBH_BulkReceiveData
@@ -477,8 +477,8 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
  264              		.thumb_func
  266              	USBH_BulkReceiveData:
  267              	.LVL24:
- 268              	.LFB141:
-ARM GAS  /tmp/ccoMIT4g.s 			page 9
+ 268              	.LFB148:
+ARM GAS  /tmp/ccEwB5sV.s 			page 9
 
 
  198:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** 
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
  220:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c ****                           length,               /* data length      */
  221:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c ****                           0U);
  222:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c ****   return USBH_OK;
-ARM GAS  /tmp/ccoMIT4g.s 			page 10
+ARM GAS  /tmp/ccEwB5sV.s 			page 10
 
 
  301              		.loc 1 222 3 is_stmt 1 view .LVU51
@@ -552,7 +552,7 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
  308 001e 30BD     		pop	{r4, r5, pc}
  309              		.loc 1 223 1 view .LVU53
  310              		.cfi_endproc
- 311              	.LFE141:
+ 311              	.LFE148:
  313              		.section	.text.USBH_InterruptReceiveData,"ax",%progbits
  314              		.align	1
  315              		.global	USBH_InterruptReceiveData
@@ -561,7 +561,7 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
  318              		.thumb_func
  320              	USBH_InterruptReceiveData:
  321              	.LVL29:
- 322              	.LFB142:
+ 322              	.LFB149:
  224:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** 
  225:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** 
  226:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** /**
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
  240:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c ****   (void)USBH_LL_SubmitURB(phost,                /* Driver handle    */
  340              		.loc 1 240 3 is_stmt 1 view .LVU56
  341              		.loc 1 240 9 is_stmt 0 view .LVU57
-ARM GAS  /tmp/ccoMIT4g.s 			page 11
+ARM GAS  /tmp/ccEwB5sV.s 			page 11
 
 
  342 0008 0024     		movs	r4, #0
@@ -634,7 +634,7 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
  362 001e 30BD     		pop	{r4, r5, pc}
  363              		.loc 1 250 1 view .LVU62
  364              		.cfi_endproc
- 365              	.LFE142:
+ 365              	.LFE149:
  367              		.section	.text.USBH_InterruptSendData,"ax",%progbits
  368              		.align	1
  369              		.global	USBH_InterruptSendData
@@ -643,7 +643,7 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
  372              		.thumb_func
  374              	USBH_InterruptSendData:
  375              	.LVL34:
- 376              	.LFB143:
+ 376              	.LFB150:
  251:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** 
  252:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** /**
  253:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c ****   * @brief  USBH_InterruptSendData
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
  262:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c ****                                           uint8_t *buff,
  263:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c ****                                           uint8_t length,
  264:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c ****                                           uint8_t pipe_num)
-ARM GAS  /tmp/ccoMIT4g.s 			page 12
+ARM GAS  /tmp/ccEwB5sV.s 			page 12
 
 
  265:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** {
@@ -716,9 +716,9 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
  417 0020 30BD     		pop	{r4, r5, pc}
  418              		.loc 1 276 1 view .LVU71
  419              		.cfi_endproc
- 420              	.LFE143:
+ 420              	.LFE150:
  422              		.section	.text.USBH_IsocReceiveData,"ax",%progbits
-ARM GAS  /tmp/ccoMIT4g.s 			page 13
+ARM GAS  /tmp/ccEwB5sV.s 			page 13
 
 
  423              		.align	1
@@ -728,7 +728,7 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
  427              		.thumb_func
  429              	USBH_IsocReceiveData:
  430              	.LVL39:
- 431              	.LFB144:
+ 431              	.LFB151:
  277:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** 
  278:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** /**
  279:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c ****   * @brief  USBH_IsocReceiveData
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
  462              		.loc 1 292 9 view .LVU77
  463 0018 FFF7FEFF 		bl	USBH_LL_SubmitURB
  464              	.LVL43:
-ARM GAS  /tmp/ccoMIT4g.s 			page 14
+ARM GAS  /tmp/ccEwB5sV.s 			page 14
 
 
  293:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c ****                           pipe_num,             /* Pipe index       */
@@ -802,7 +802,7 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
  472 0020 30BD     		pop	{r4, r5, pc}
  473              		.loc 1 303 1 view .LVU80
  474              		.cfi_endproc
- 475              	.LFE144:
+ 475              	.LFE151:
  477              		.section	.text.USBH_IsocSendData,"ax",%progbits
  478              		.align	1
  479              		.global	USBH_IsocSendData
@@ -811,7 +811,7 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
  482              		.thumb_func
  484              	USBH_IsocSendData:
  485              	.LVL44:
- 486              	.LFB145:
+ 486              	.LFB152:
  304:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** 
  305:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c **** /**
  306:Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c ****   * @brief  USBH_IsocSendData
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
  495              		.cfi_offset 4, -12
  496              		.cfi_offset 5, -8
  497              		.cfi_offset 14, -4
-ARM GAS  /tmp/ccoMIT4g.s 			page 15
+ARM GAS  /tmp/ccEwB5sV.s 			page 15
 
 
  498 0002 85B0     		sub	sp, sp, #20
@@ -884,36 +884,36 @@ ARM GAS  /tmp/ccoMIT4g.s 			page 1
  527 0020 30BD     		pop	{r4, r5, pc}
  528              		.loc 1 329 1 view .LVU89
  529              		.cfi_endproc
- 530              	.LFE145:
+ 530              	.LFE152:
  532              		.text
  533              	.Letext0:
  534              		.file 2 "/usr/include/newlib/machine/_default_types.h"
  535              		.file 3 "/usr/include/newlib/sys/_stdint.h"
  536              		.file 4 "Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h"
  537              		.file 5 "Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h"
-ARM GAS  /tmp/ccoMIT4g.s 			page 16
+ARM GAS  /tmp/ccEwB5sV.s 			page 16
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 usbh_ioreq.c
-     /tmp/ccoMIT4g.s:21     .text.USBH_CtlSendSetup:00000000 $t
-     /tmp/ccoMIT4g.s:27     .text.USBH_CtlSendSetup:00000000 USBH_CtlSendSetup
-     /tmp/ccoMIT4g.s:74     .text.USBH_CtlSendData:00000000 $t
-     /tmp/ccoMIT4g.s:80     .text.USBH_CtlSendData:00000000 USBH_CtlSendData
-     /tmp/ccoMIT4g.s:140    .text.USBH_CtlReceiveData:00000000 $t
-     /tmp/ccoMIT4g.s:146    .text.USBH_CtlReceiveData:00000000 USBH_CtlReceiveData
-     /tmp/ccoMIT4g.s:194    .text.USBH_BulkSendData:00000000 $t
-     /tmp/ccoMIT4g.s:200    .text.USBH_BulkSendData:00000000 USBH_BulkSendData
-     /tmp/ccoMIT4g.s:260    .text.USBH_BulkReceiveData:00000000 $t
-     /tmp/ccoMIT4g.s:266    .text.USBH_BulkReceiveData:00000000 USBH_BulkReceiveData
-     /tmp/ccoMIT4g.s:314    .text.USBH_InterruptReceiveData:00000000 $t
-     /tmp/ccoMIT4g.s:320    .text.USBH_InterruptReceiveData:00000000 USBH_InterruptReceiveData
-     /tmp/ccoMIT4g.s:368    .text.USBH_InterruptSendData:00000000 $t
-     /tmp/ccoMIT4g.s:374    .text.USBH_InterruptSendData:00000000 USBH_InterruptSendData
-     /tmp/ccoMIT4g.s:423    .text.USBH_IsocReceiveData:00000000 $t
-     /tmp/ccoMIT4g.s:429    .text.USBH_IsocReceiveData:00000000 USBH_IsocReceiveData
-     /tmp/ccoMIT4g.s:478    .text.USBH_IsocSendData:00000000 $t
-     /tmp/ccoMIT4g.s:484    .text.USBH_IsocSendData:00000000 USBH_IsocSendData
+     /tmp/ccEwB5sV.s:21     .text.USBH_CtlSendSetup:00000000 $t
+     /tmp/ccEwB5sV.s:27     .text.USBH_CtlSendSetup:00000000 USBH_CtlSendSetup
+     /tmp/ccEwB5sV.s:74     .text.USBH_CtlSendData:00000000 $t
+     /tmp/ccEwB5sV.s:80     .text.USBH_CtlSendData:00000000 USBH_CtlSendData
+     /tmp/ccEwB5sV.s:140    .text.USBH_CtlReceiveData:00000000 $t
+     /tmp/ccEwB5sV.s:146    .text.USBH_CtlReceiveData:00000000 USBH_CtlReceiveData
+     /tmp/ccEwB5sV.s:194    .text.USBH_BulkSendData:00000000 $t
+     /tmp/ccEwB5sV.s:200    .text.USBH_BulkSendData:00000000 USBH_BulkSendData
+     /tmp/ccEwB5sV.s:260    .text.USBH_BulkReceiveData:00000000 $t
+     /tmp/ccEwB5sV.s:266    .text.USBH_BulkReceiveData:00000000 USBH_BulkReceiveData
+     /tmp/ccEwB5sV.s:314    .text.USBH_InterruptReceiveData:00000000 $t
+     /tmp/ccEwB5sV.s:320    .text.USBH_InterruptReceiveData:00000000 USBH_InterruptReceiveData
+     /tmp/ccEwB5sV.s:368    .text.USBH_InterruptSendData:00000000 $t
+     /tmp/ccEwB5sV.s:374    .text.USBH_InterruptSendData:00000000 USBH_InterruptSendData
+     /tmp/ccEwB5sV.s:423    .text.USBH_IsocReceiveData:00000000 $t
+     /tmp/ccEwB5sV.s:429    .text.USBH_IsocReceiveData:00000000 USBH_IsocReceiveData
+     /tmp/ccEwB5sV.s:478    .text.USBH_IsocSendData:00000000 $t
+     /tmp/ccEwB5sV.s:484    .text.USBH_IsocSendData:00000000 USBH_IsocSendData
 
 UNDEFINED SYMBOLS
 USBH_LL_SubmitURB

@@ -31,8 +31,8 @@
 #include <string.h>
 #include "main.h"
 
-#include "stm32f4xx.h"
-#include "stm32f4xx_hal.h"
+#include "stm32f7xx.h"
+#include "stm32f7xx_hal.h"
 
 /* USER CODE BEGIN INCLUDE */
 
@@ -146,7 +146,7 @@
 
 #if (USBH_DEBUG_LEVEL > 2U)
 #define  USBH_DbgLog(...)   do { \
-                            printf("DEBUG : "); \
+                            printf("ERROR: "); \
                             printf(__VA_ARGS__); \
                             printf("\n"); \
 } while (0)
