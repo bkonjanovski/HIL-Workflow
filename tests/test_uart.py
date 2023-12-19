@@ -2,11 +2,9 @@ import pytest
 from src.uart import check_gpio_signal
 import time
 
-check_gpio_signal
-
 def test_gpio_sgnal():  
-    time.sleep(3)
-    assert check_gpio_signal() == 'TEST-TX'
+     time.sleep(3)
+     assert check_gpio_signal() == 'TEST-TX'
 
 #def test_echo_single_byte():  
 #    time.sleep(3)

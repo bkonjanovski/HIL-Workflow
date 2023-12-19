@@ -199,12 +199,32 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+
+  const uint8_t tx_buffer [] = "TEST-TX\r\n";
+  uint8_t rx_buffer [1];
+  uint8_t rx_done = 0;
+
+  GPIO_PinState state;
+
   while (1)
   {
     /* USER CODE END WHILE */
+
+    if (state == GPIO_PIN_SET){
+	HAL_GPIO_WritePin(GPIOI, GPIO_PIN_1, GPIO_PIN_SET);
+	HAL_UART_Transmit(&huart1, tx_buffer, sizeof(tx_buffer), 5000);
+	HAL_Delay(4000);
+	}
+	  else {
+        HAL_GPIO_WritePin(GPIOI, GPIO_PIN_1, GPIO_PIN_RESET);
+	HAL_UART_Transmit(&huart1, 0, 1, 5000);
+	}
+
     MX_USB_HOST_Process();
 
     /* USER CODE BEGIN 3 */
+
+	
   }
   /* USER CODE END 3 */
 }
