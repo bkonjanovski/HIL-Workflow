@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccZ5Ku77.s 			page 1
+ARM GAS  /tmp/ccigjPNl.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
   28:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
   29:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   [..]
   30:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     The SAI HAL driver can be used as follows:
-ARM GAS  /tmp/ccZ5Ku77.s 			page 2
+ARM GAS  /tmp/ccigjPNl.s 			page 2
 
 
   31:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
   85:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
   86:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     *** Polling mode IO operation ***
   87:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     =================================
-ARM GAS  /tmp/ccZ5Ku77.s 			page 3
+ARM GAS  /tmp/ccigjPNl.s 			page 3
 
 
   88:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     [..]
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  142:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       (+) __HAL_SAI_GET_FLAG(): Check whether the specified SAI flag is set or not
  143:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
  144:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     *** Callback registration ***
-ARM GAS  /tmp/ccZ5Ku77.s 			page 4
+ARM GAS  /tmp/ccigjPNl.s 			page 4
 
 
  145:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     =============================
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  199:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     When the compilation define USE_HAL_SAI_REGISTER_CALLBACKS is set to 0 or
  200:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     not defined, the callback registering feature is not available
  201:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     and weak (surcharged) callbacks are used.
-ARM GAS  /tmp/ccZ5Ku77.s 			page 5
+ARM GAS  /tmp/ccigjPNl.s 			page 5
 
 
  202:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  256:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** static HAL_StatusTypeDef SAI_Disable(SAI_HandleTypeDef *hsai);
  257:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** static void SAI_Transmit_IT8Bit(SAI_HandleTypeDef *hsai);
  258:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** static void SAI_Transmit_IT16Bit(SAI_HandleTypeDef *hsai);
-ARM GAS  /tmp/ccZ5Ku77.s 			page 6
+ARM GAS  /tmp/ccigjPNl.s 			page 6
 
 
  259:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** static void SAI_Transmit_IT32Bit(SAI_HandleTypeDef *hsai);
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  313:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   *         Init according to the specified parameters and call the function
  314:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   *         HAL_SAI_Init to initialize the SAI block.
  315:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   * @param  hsai pointer to a SAI_HandleTypeDef structure that contains
-ARM GAS  /tmp/ccZ5Ku77.s 			page 7
+ARM GAS  /tmp/ccigjPNl.s 			page 7
 
 
  316:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   *               the configuration information for SAI module.
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  370:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   {
  371:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     return HAL_ERROR;
  372:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   }
-ARM GAS  /tmp/ccZ5Ku77.s 			page 8
+ARM GAS  /tmp/ccigjPNl.s 			page 8
 
 
  373:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  427:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     HAL_SAI_MspInit(hsai);
  428:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** #endif /* USE_HAL_SAI_REGISTER_CALLBACKS */
  429:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   }
-ARM GAS  /tmp/ccZ5Ku77.s 			page 9
+ARM GAS  /tmp/ccigjPNl.s 			page 9
 
 
  430:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  484:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   else
  485:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   {
  486:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     SAI2->GCR = tmpregisterGCR;
-ARM GAS  /tmp/ccZ5Ku77.s 			page 10
+ARM GAS  /tmp/ccigjPNl.s 			page 10
 
 
  487:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   }
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  541:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****                            SAI_xCR1_LSBFIRST | SAI_xCR1_CKSTR | SAI_xCR1_SYNCEN | \
  542:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****                            SAI_xCR1_MONO | SAI_xCR1_OUTDRIV  | SAI_xCR1_DMAEN |  \
  543:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****                            SAI_xCR1_NODIV | SAI_xCR1_MCKDIV);
-ARM GAS  /tmp/ccZ5Ku77.s 			page 11
+ARM GAS  /tmp/ccigjPNl.s 			page 11
 
 
  544:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  598:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   hsai->State = HAL_SAI_STATE_BUSY;
  599:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
  600:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   /* Disabled All interrupt and clear all the flag */
-ARM GAS  /tmp/ccZ5Ku77.s 			page 12
+ARM GAS  /tmp/ccigjPNl.s 			page 12
 
 
  601:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   hsai->Instance->IMR = 0;
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  655:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** __weak void HAL_SAI_MspDeInit(SAI_HandleTypeDef *hsai)
  656:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** {
  657:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   /* Prevent unused argument(s) compilation warning */
-ARM GAS  /tmp/ccZ5Ku77.s 			page 13
+ARM GAS  /tmp/ccigjPNl.s 			page 13
 
 
  658:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   UNUSED(hsai);
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  712:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****           break;
  713:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****         case HAL_SAI_ERROR_CB_ID :
  714:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****           hsai->ErrorCallback = pCallback;
-ARM GAS  /tmp/ccZ5Ku77.s 			page 14
+ARM GAS  /tmp/ccigjPNl.s 			page 14
 
 
  715:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****           break;
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  769:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   *           @arg @ref HAL_SAI_ERROR_CB_ID error callback ID.
  770:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   *           @arg @ref HAL_SAI_MSPINIT_CB_ID MSP init callback ID.
  771:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   *           @arg @ref HAL_SAI_MSPDEINIT_CB_ID MSP de-init callback ID.
-ARM GAS  /tmp/ccZ5Ku77.s 			page 15
+ARM GAS  /tmp/ccigjPNl.s 			page 15
 
 
  772:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   * @retval HAL status.
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  826:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****         status = HAL_ERROR;
  827:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****         break;
  828:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     }
-ARM GAS  /tmp/ccZ5Ku77.s 			page 16
+ARM GAS  /tmp/ccigjPNl.s 			page 16
 
 
  829:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   }
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  883:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** @endverbatim
  884:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   * @{
  885:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   */
-ARM GAS  /tmp/ccZ5Ku77.s 			page 17
+ARM GAS  /tmp/ccigjPNl.s 			page 17
 
 
  886:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  940:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****         {
  941:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****           hsai->Instance->DR = *((uint32_t *)hsai->pBuffPtr);
  942:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****           hsai->pBuffPtr += 4;
-ARM GAS  /tmp/ccZ5Ku77.s 			page 18
+ARM GAS  /tmp/ccigjPNl.s 			page 18
 
 
  943:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****         }
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  997:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** {
  998:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   uint32_t tickstart = HAL_GetTick();
  999:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
-ARM GAS  /tmp/ccZ5Ku77.s 			page 19
+ARM GAS  /tmp/ccigjPNl.s 			page 19
 
 
 1000:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   if ((pData == NULL) || (Size == 0))
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1054:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
 1055:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****           /* Disable SAI peripheral */
 1056:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****           SAI_Disable(hsai);
-ARM GAS  /tmp/ccZ5Ku77.s 			page 20
+ARM GAS  /tmp/ccigjPNl.s 			page 20
 
 
 1057:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1111:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     if ((hsai->Init.DataSize == SAI_DATASIZE_8) && (hsai->Init.CompandingMode == SAI_NOCOMPANDING))
 1112:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     {
 1113:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       hsai->InterruptServiceRoutine = SAI_Transmit_IT8Bit;
-ARM GAS  /tmp/ccZ5Ku77.s 			page 21
+ARM GAS  /tmp/ccigjPNl.s 			page 21
 
 
 1114:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     }
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1168:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     hsai->XferSize = Size;
 1169:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     hsai->XferCount = Size;
 1170:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     hsai->ErrorCode = HAL_SAI_ERROR_NONE;
-ARM GAS  /tmp/ccZ5Ku77.s 			page 22
+ARM GAS  /tmp/ccigjPNl.s 			page 22
 
 
 1171:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     hsai->State = HAL_SAI_STATE_BUSY_RX;
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1225:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** }
 1226:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
 1227:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** /**
-ARM GAS  /tmp/ccZ5Ku77.s 			page 23
+ARM GAS  /tmp/ccigjPNl.s 			page 23
 
 
 1228:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   * @brief Resume the audio stream playing from the Media.
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1282:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   }
 1283:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
 1284:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   /* Abort the SAI Rx DMA Stream */
-ARM GAS  /tmp/ccZ5Ku77.s 			page 24
+ARM GAS  /tmp/ccigjPNl.s 			page 24
 
 
 1285:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   if ((hsai->hdmarx != NULL) && (hsai->State == HAL_SAI_STATE_BUSY_RX))
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1339:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****         {
 1340:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****           status = HAL_ERROR;
 1341:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****           hsai->ErrorCode |= HAL_SAI_ERROR_DMA;
-ARM GAS  /tmp/ccZ5Ku77.s 			page 25
+ARM GAS  /tmp/ccigjPNl.s 			page 25
 
 
 1342:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****         }
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1396:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   if (hsai->State == HAL_SAI_STATE_READY)
 1397:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   {
 1398:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     /* Process Locked */
-ARM GAS  /tmp/ccZ5Ku77.s 			page 26
+ARM GAS  /tmp/ccigjPNl.s 			page 26
 
 
 1399:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     __HAL_LOCK(hsai);
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1453:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     }
 1454:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
 1455:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     /* Process Unlocked */
-ARM GAS  /tmp/ccZ5Ku77.s 			page 27
+ARM GAS  /tmp/ccigjPNl.s 			page 27
 
 
 1456:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     __HAL_UNLOCK(hsai);
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1510:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     }
 1511:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
 1512:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     /* Enable the interrupts for error handling */
-ARM GAS  /tmp/ccZ5Ku77.s 			page 28
+ARM GAS  /tmp/ccigjPNl.s 			page 28
 
 
 1513:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     __HAL_SAI_ENABLE_IT(hsai, SAI_InterruptFlag(hsai, SAI_MODE_DMA));
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1567:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     return HAL_OK;
 1568:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   }
 1569:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   return HAL_ERROR;
-ARM GAS  /tmp/ccZ5Ku77.s 			page 29
+ARM GAS  /tmp/ccigjPNl.s 			page 29
 
 
 1570:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** }
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1624:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   if (hsai->State != HAL_SAI_STATE_RESET)
 1625:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   {
 1626:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     uint32_t itflags = hsai->Instance->SR;
-ARM GAS  /tmp/ccZ5Ku77.s 			page 30
+ARM GAS  /tmp/ccigjPNl.s 			page 30
 
 
 1627:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     uint32_t itsources = hsai->Instance->IMR;
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1681:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****           /* Abort DMA in IT mode */
 1682:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****           HAL_DMA_Abort_IT(hsai->hdmatx);
 1683:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****         }
-ARM GAS  /tmp/ccZ5Ku77.s 			page 31
+ARM GAS  /tmp/ccigjPNl.s 			page 31
 
 
 1684:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****         else if (hsai->hdmarx != NULL)
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1738:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****         /* Set error callback */
 1739:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** #if (USE_HAL_SAI_REGISTER_CALLBACKS == 1)
 1740:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****         hsai->ErrorCallback(hsai);
-ARM GAS  /tmp/ccZ5Ku77.s 			page 32
+ARM GAS  /tmp/ccigjPNl.s 			page 32
 
 
 1741:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** #else
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1795:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       /* Change the SAI error code */
 1796:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       hsai->ErrorCode |= HAL_SAI_ERROR_CNREADY;
 1797:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       /* the transfer is not stopped, we will forward the information to the user and we let the us
-ARM GAS  /tmp/ccZ5Ku77.s 			page 33
+ARM GAS  /tmp/ccigjPNl.s 			page 33
 
 
 1798:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** #if (USE_HAL_SAI_REGISTER_CALLBACKS == 1)
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1852:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   UNUSED(hsai);
 1853:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
 1854:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   /* NOTE : This function should not be modified, when the callback is needed,
-ARM GAS  /tmp/ccZ5Ku77.s 			page 34
+ARM GAS  /tmp/ccigjPNl.s 			page 34
 
 
 1855:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****             the HAL_SAI_RxCpltCallback could be implemented in the user file
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1909:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
 1910:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** /**
 1911:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   * @brief  Return the SAI handle state.
-ARM GAS  /tmp/ccZ5Ku77.s 			page 35
+ARM GAS  /tmp/ccigjPNl.s 			page 35
 
 
 1912:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   * @param  hsai pointer to a SAI_HandleTypeDef structure that contains
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
   36              	.LCFI0:
   37              		.cfi_def_cfa_offset 8
   38              		.cfi_offset 4, -8
-ARM GAS  /tmp/ccZ5Ku77.s 			page 36
+ARM GAS  /tmp/ccigjPNl.s 			page 36
 
 
   39              		.cfi_offset 5, -4
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1977:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   /* in IS2 the number of slot must be even */
 1978:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   if ((nbslot & 0x1) != 0)
   75              		.loc 1 1978 3 is_stmt 1 view .LVU19
-ARM GAS  /tmp/ccZ5Ku77.s 			page 37
+ARM GAS  /tmp/ccigjPNl.s 			page 37
 
 
   76              		.loc 1 1978 6 is_stmt 0 view .LVU20
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  108              		.loc 1 1991 32 is_stmt 0 view .LVU31
  109 004a 4FF40034 		mov	r4, #131072
  110 004e C464     		str	r4, [r0, #76]
-ARM GAS  /tmp/ccZ5Ku77.s 			page 38
+ARM GAS  /tmp/ccigjPNl.s 			page 38
 
 
 1992:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   }
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 2020:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       hsai->SlotInit.SlotSize = SAI_SLOTSIZE_32B;
 2021:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       break;
 2022:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     default :
-ARM GAS  /tmp/ccZ5Ku77.s 			page 39
+ARM GAS  /tmp/ccigjPNl.s 			page 39
 
 
 2023:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       return HAL_ERROR;
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  172              		.loc 1 2007 7 is_stmt 1 view .LVU56
 2007:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       hsai->SlotInit.SlotSize = SAI_SLOTSIZE_32B;
  173              		.loc 1 2007 46 is_stmt 0 view .LVU57
-ARM GAS  /tmp/ccZ5Ku77.s 			page 40
+ARM GAS  /tmp/ccigjPNl.s 			page 40
 
 
  174 007c 5B01     		lsls	r3, r3, #5
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  210              		.loc 1 2017 27 is_stmt 0 view .LVU75
  211 0098 E024     		movs	r4, #224
  212 009a 4463     		str	r4, [r0, #52]
-ARM GAS  /tmp/ccZ5Ku77.s 			page 41
+ARM GAS  /tmp/ccigjPNl.s 			page 41
 
 
 2018:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       hsai->FrameInit.ActiveFrameLength = 32 * (nbslot / 2);
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  249              		.loc 1 2029 37 is_stmt 0 view .LVU93
  250 00b8 1023     		movs	r3, #16
  251 00ba 4365     		str	r3, [r0, #84]
-ARM GAS  /tmp/ccZ5Ku77.s 			page 42
+ARM GAS  /tmp/ccigjPNl.s 			page 42
 
 
 2031:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     {
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 2040:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   * @brief  Initialize the SAI PCM protocol according to the specified parameters
 2041:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   *         in the SAI_InitTypeDef and create the associated handle.
 2042:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   * @param  hsai pointer to a SAI_HandleTypeDef structure that contains
-ARM GAS  /tmp/ccZ5Ku77.s 			page 43
+ARM GAS  /tmp/ccigjPNl.s 			page 43
 
 
 2043:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   *                the configuration information for SAI module.
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  327              		.loc 1 2064 34 is_stmt 0 view .LVU117
  328 0016 0024     		movs	r4, #0
  329 0018 8464     		str	r4, [r0, #72]
-ARM GAS  /tmp/ccZ5Ku77.s 			page 44
+ARM GAS  /tmp/ccigjPNl.s 			page 44
 
 
 2065:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   hsai->FrameInit.FSPolarity     = SAI_FS_ACTIVE_HIGH;
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  367 0043 20       		.byte	(.L28-.L29)/2
  368              	.LVL20:
  369              		.p2align 1
-ARM GAS  /tmp/ccZ5Ku77.s 			page 45
+ARM GAS  /tmp/ccigjPNl.s 			page 45
 
 
  370              	.L23:
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 2099:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       hsai->Init.DataSize = SAI_DATASIZE_32;
 2100:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       hsai->FrameInit.FrameLength = 32 * nbslot;
 2101:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       hsai->SlotInit.SlotSize = SAI_SLOTSIZE_32B;
-ARM GAS  /tmp/ccZ5Ku77.s 			page 46
+ARM GAS  /tmp/ccigjPNl.s 			page 46
 
 
 2102:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       break;
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  438 006e F6E7     		b	.L27
  439              	.LVL29:
  440              	.L30:
-ARM GAS  /tmp/ccZ5Ku77.s 			page 47
+ARM GAS  /tmp/ccigjPNl.s 			page 47
 
 
 2094:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       hsai->FrameInit.FrameLength = 32 * nbslot;
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  477              		.loc 1 2101 7 is_stmt 1 view .LVU178
 2101:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       break;
  478              		.loc 1 2101 31 is_stmt 0 view .LVU179
-ARM GAS  /tmp/ccZ5Ku77.s 			page 48
+ARM GAS  /tmp/ccigjPNl.s 			page 48
 
 
  479 0088 8023     		movs	r3, #128
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  517              		.loc 1 2121 49 discriminator 1 view .LVU189
  518 0004 E9B9     		cbnz	r1, .L38
 2122:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     {
-ARM GAS  /tmp/ccZ5Ku77.s 			page 49
+ARM GAS  /tmp/ccigjPNl.s 			page 49
 
 
 2123:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       hsai->Instance->DR = (*hsai->pBuffPtr++);
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 2119:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   {
  557              		.loc 1 2119 31 view .LVU208
  558 002c 03F4E023 		and	r3, r3, #458752
-ARM GAS  /tmp/ccZ5Ku77.s 			page 50
+ARM GAS  /tmp/ccigjPNl.s 			page 50
 
 
 2119:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   {
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  597              		.section	.text.SAI_InterruptFlag,"ax",%progbits
  598              		.align	1
  599              		.syntax unified
-ARM GAS  /tmp/ccZ5Ku77.s 			page 51
+ARM GAS  /tmp/ccigjPNl.s 			page 51
 
 
  600              		.thumb
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  630              		.loc 1 2161 50 view .LVU235
  631 000e 023A     		subs	r2, r2, #2
  632              		.loc 1 2161 6 view .LVU236
-ARM GAS  /tmp/ccZ5Ku77.s 			page 52
+ARM GAS  /tmp/ccigjPNl.s 			page 52
 
 
  633 0010 012A     		cmp	r2, #1
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  668 0032 7047     		bx	lr
  669              		.cfi_endproc
  670              	.LFE171:
-ARM GAS  /tmp/ccZ5Ku77.s 			page 53
+ARM GAS  /tmp/ccigjPNl.s 			page 53
 
 
  672              		.section	.text.SAI_Disable,"ax",%progbits
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  708              	.LVL49:
  709              		.loc 1 2190 8 view .LVU259
  710 001c 32B1     		cbz	r2, .L56
-ARM GAS  /tmp/ccZ5Ku77.s 			page 54
+ARM GAS  /tmp/ccigjPNl.s 			page 54
 
 
 2191:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     {
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  746 0040 1BECCB95 		.word	-1781797861
  747              		.cfi_endproc
  748              	.LFE172:
-ARM GAS  /tmp/ccZ5Ku77.s 			page 55
+ARM GAS  /tmp/ccigjPNl.s 			page 55
 
 
  750              		.section	.text.HAL_SAI_MspInit,"ax",%progbits
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  797              		.cfi_offset 4, -12
  798              		.cfi_offset 5, -8
  799              		.cfi_offset 14, -4
-ARM GAS  /tmp/ccZ5Ku77.s 			page 56
+ARM GAS  /tmp/ccigjPNl.s 			page 56
 
 
  800 0008 0446     		mov	r4, r0
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  406:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   {
  828              		.loc 1 406 6 view .LVU310
  829 000e 002B     		cmp	r3, #0
-ARM GAS  /tmp/ccZ5Ku77.s 			page 57
+ARM GAS  /tmp/ccigjPNl.s 			page 57
 
 
  830 0010 00F0BA80 		beq	.L86
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  871 004a 6A49     		ldr	r1, .L93+4
  872 004c 8B42     		cmp	r3, r1
  873 004e 18BF     		it	ne
-ARM GAS  /tmp/ccZ5Ku77.s 			page 58
+ARM GAS  /tmp/ccigjPNl.s 			page 58
 
 
  874 0050 8342     		cmpne	r3, r0
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  913 007a 18BF     		it	ne
  914 007c 8B42     		cmpne	r3, r1
  915 007e 00F0A080 		beq	.L89
-ARM GAS  /tmp/ccZ5Ku77.s 			page 59
+ARM GAS  /tmp/ccigjPNl.s 			page 59
 
 
  916              	.L70:
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  953              		.loc 1 518 8 view .LVU355
  954 00ac 042B     		cmp	r3, #4
  955 00ae 00F08D80 		beq	.L90
-ARM GAS  /tmp/ccZ5Ku77.s 			page 60
+ARM GAS  /tmp/ccigjPNl.s 			page 60
 
 
  956              	.LVL67:
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  545:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****                           hsai->Init.DataSize | hsai->Init.FirstBit  |           \
  994              		.loc 1 545 60 view .LVU372
  995 00da 206B     		ldr	r0, [r4, #48]
-ARM GAS  /tmp/ccZ5Ku77.s 			page 61
+ARM GAS  /tmp/ccigjPNl.s 			page 61
 
 
  545:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****                           hsai->Init.DataSize | hsai->Init.FirstBit  |           \
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  552:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   hsai->Instance->CR2 |= (hsai->Init.FIFOThreshold | hsai->Init.CompandingMode | hsai->Init.TriStat
  1032              		.loc 1 552 17 view .LVU391
  1033 0104 5168     		ldr	r1, [r2, #4]
-ARM GAS  /tmp/ccZ5Ku77.s 			page 62
+ARM GAS  /tmp/ccigjPNl.s 			page 62
 
 
  552:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   hsai->Instance->CR2 |= (hsai->Init.FIFOThreshold | hsai->Init.CompandingMode | hsai->Init.TriStat
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  1070              		.loc 1 558 44 view .LVU409
  1071 012c 236C     		ldr	r3, [r4, #64]
  558:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****                            hsai->FrameInit.FSOffset |
-ARM GAS  /tmp/ccZ5Ku77.s 			page 63
+ARM GAS  /tmp/ccigjPNl.s 			page 63
 
 
  1072              		.loc 1 558 57 view .LVU410
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  1109              		.loc 1 569 17 view .LVU427
  1110 015c C268     		ldr	r2, [r0, #12]
  569:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****                             | (hsai->SlotInit.SlotActive << 16) | ((hsai->SlotInit.SlotNumber - 1) 
-ARM GAS  /tmp/ccZ5Ku77.s 			page 64
+ARM GAS  /tmp/ccigjPNl.s 			page 64
 
 
  1111              		.loc 1 569 43 view .LVU428
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  1147              		.loc 1 409 5 is_stmt 1 view .LVU446
  409:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
  1148              		.loc 1 409 16 is_stmt 0 view .LVU447
-ARM GAS  /tmp/ccZ5Ku77.s 			page 65
+ARM GAS  /tmp/ccigjPNl.s 			page 65
 
 
  1149 0188 80F87C30 		strb	r3, [r0, #124]
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  1189 01b0 114B     		ldr	r3, .L93+8
  1190 01b2 C3F8002C 		str	r2, [r3, #3072]
  1191 01b6 51E7     		b	.L67
-ARM GAS  /tmp/ccZ5Ku77.s 			page 66
+ARM GAS  /tmp/ccigjPNl.s 			page 66
 
 
  1192              	.LVL76:
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  1231              		.loc 1 535 29 is_stmt 0 view .LVU476
  1232 01da E36B     		ldr	r3, [r4, #60]
  535:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   }
-ARM GAS  /tmp/ccZ5Ku77.s 			page 67
+ARM GAS  /tmp/ccigjPNl.s 			page 67
 
 
  1233              		.loc 1 535 94 view .LVU477
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  1285              	.LCFI8:
  1286              		.cfi_def_cfa_offset 8
  1287              		.cfi_offset 4, -8
-ARM GAS  /tmp/ccZ5Ku77.s 			page 68
+ARM GAS  /tmp/ccigjPNl.s 			page 68
 
 
  1288              		.cfi_offset 14, -4
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  349:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   }
  1327              		.loc 1 349 5 is_stmt 1 view .LVU497
  349:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   }
-ARM GAS  /tmp/ccZ5Ku77.s 			page 69
+ARM GAS  /tmp/ccigjPNl.s 			page 69
 
 
  1328              		.loc 1 349 14 is_stmt 0 view .LVU498
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  593:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   {
  1379              		.loc 1 593 3 view .LVU506
  593:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   {
-ARM GAS  /tmp/ccZ5Ku77.s 			page 70
+ARM GAS  /tmp/ccigjPNl.s 			page 70
 
 
  1380              		.loc 1 593 6 is_stmt 0 view .LVU507
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  1420              		.loc 1 622 19 is_stmt 0 view .LVU521
  1421 002e C4F88050 		str	r5, [r4, #128]
  625:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
-ARM GAS  /tmp/ccZ5Ku77.s 			page 71
+ARM GAS  /tmp/ccigjPNl.s 			page 71
 
 
  1422              		.loc 1 625 3 is_stmt 1 view .LVU522
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  1467              		.cfi_def_cfa_offset 32
  1468              		.cfi_offset 3, -32
  1469              		.cfi_offset 4, -28
-ARM GAS  /tmp/ccZ5Ku77.s 			page 72
+ARM GAS  /tmp/ccigjPNl.s 			page 72
 
 
  1470              		.cfi_offset 5, -24
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  1510              		.loc 1 911 5 is_stmt 1 discriminator 2 view .LVU547
  911:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     hsai->pBuffPtr = pData;
  1511              		.loc 1 911 21 is_stmt 0 discriminator 2 view .LVU548
-ARM GAS  /tmp/ccZ5Ku77.s 			page 73
+ARM GAS  /tmp/ccigjPNl.s 			page 73
 
 
  1512 003a A4F86A80 		strh	r8, [r4, #106]	@ movhi
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  932:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****         }
  1550              		.loc 1 932 38 is_stmt 0 view .LVU565
  1551 006e 636E     		ldr	r3, [r4, #100]
-ARM GAS  /tmp/ccZ5Ku77.s 			page 74
+ARM GAS  /tmp/ccigjPNl.s 			page 74
 
 
  932:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****         }
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  928:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       {
  1589              		.loc 1 928 16 is_stmt 0 view .LVU583
  1590 0098 2168     		ldr	r1, [r4]
-ARM GAS  /tmp/ccZ5Ku77.s 			page 75
+ARM GAS  /tmp/ccigjPNl.s 			page 75
 
 
  928:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       {
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  949:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****         {
  1628              		.loc 1 949 40 discriminator 1 view .LVU601
  1629 00c4 25B1     		cbz	r5, .L122
-ARM GAS  /tmp/ccZ5Ku77.s 			page 76
+ARM GAS  /tmp/ccigjPNl.s 			page 76
 
 
  949:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****         {
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  1668              		.loc 1 967 11 view .LVU617
  969:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****         }
  1669              		.loc 1 969 11 view .LVU618
-ARM GAS  /tmp/ccZ5Ku77.s 			page 77
+ARM GAS  /tmp/ccigjPNl.s 			page 77
 
 
  969:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****         }
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  1714              	.LVL110:
  1715              	.LFB147:
  997:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   uint32_t tickstart = HAL_GetTick();
-ARM GAS  /tmp/ccZ5Ku77.s 			page 78
+ARM GAS  /tmp/ccigjPNl.s 			page 78
 
 
  1716              		.loc 1 997 1 is_stmt 1 view -0
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  1759              		.loc 1 1008 5 discriminator 2 view .LVU642
  1760 0030 0123     		movs	r3, #1
  1761 0032 84F87C30 		strb	r3, [r4, #124]
-ARM GAS  /tmp/ccZ5Ku77.s 			page 79
+ARM GAS  /tmp/ccigjPNl.s 			page 79
 
 
 1008:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  1798 0064 D9B9     		cbnz	r1, .L135
 1030:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****         }
  1799              		.loc 1 1030 11 is_stmt 1 view .LVU661
-ARM GAS  /tmp/ccZ5Ku77.s 			page 80
+ARM GAS  /tmp/ccigjPNl.s 			page 80
 
 
 1030:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****         }
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1026:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       {
  1837              		.loc 1 1026 7 is_stmt 1 view .LVU679
 1026:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       {
-ARM GAS  /tmp/ccZ5Ku77.s 			page 81
+ARM GAS  /tmp/ccigjPNl.s 			page 81
 
 
  1838              		.loc 1 1026 16 is_stmt 0 view .LVU680
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  1875              		.loc 1 1047 40 discriminator 1 view .LVU697
  1876 00b6 25B1     		cbz	r5, .L139
 1047:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****         {
-ARM GAS  /tmp/ccZ5Ku77.s 			page 82
+ARM GAS  /tmp/ccigjPNl.s 			page 82
 
 
  1877              		.loc 1 1047 64 discriminator 2 view .LVU698
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1067:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****         }
  1916              		.loc 1 1067 11 view .LVU714
 1067:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****         }
-ARM GAS  /tmp/ccZ5Ku77.s 			page 83
+ARM GAS  /tmp/ccigjPNl.s 			page 83
 
 
  1917              		.loc 1 1067 18 is_stmt 0 view .LVU715
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  1962              	.LFB148:
 1094:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   if ((pData == NULL) || (Size == 0))
  1963              		.loc 1 1094 1 is_stmt 1 view -0
-ARM GAS  /tmp/ccZ5Ku77.s 			page 84
+ARM GAS  /tmp/ccigjPNl.s 			page 84
 
 
  1964              		.cfi_startproc
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1107:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     hsai->ErrorCode = HAL_SAI_ERROR_NONE;
  2004              		.loc 1 1107 5 is_stmt 1 discriminator 2 view .LVU742
 1107:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     hsai->ErrorCode = HAL_SAI_ERROR_NONE;
-ARM GAS  /tmp/ccZ5Ku77.s 			page 85
+ARM GAS  /tmp/ccigjPNl.s 			page 85
 
 
  2005              		.loc 1 1107 21 is_stmt 0 discriminator 2 view .LVU743
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  2045 005a 0343     		orrs	r3, r3, r0
  2046 005c 1361     		str	r3, [r2, #16]
 1131:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     {
-ARM GAS  /tmp/ccZ5Ku77.s 			page 86
+ARM GAS  /tmp/ccigjPNl.s 			page 86
 
 
  2047              		.loc 1 1131 5 view .LVU758
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  2086 0086 A367     		str	r3, [r4, #120]
  2087 0088 DEE7     		b	.L150
  2088              	.LVL125:
-ARM GAS  /tmp/ccZ5Ku77.s 			page 87
+ARM GAS  /tmp/ccigjPNl.s 			page 87
 
 
  2089              	.L153:
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  2139              	.LFB149:
 1156:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   if ((pData == NULL) || (Size == 0))
  2140              		.loc 1 1156 1 is_stmt 1 view -0
-ARM GAS  /tmp/ccZ5Ku77.s 			page 88
+ARM GAS  /tmp/ccigjPNl.s 			page 88
 
 
  2141              		.cfi_startproc
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1169:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     hsai->ErrorCode = HAL_SAI_ERROR_NONE;
  2181              		.loc 1 1169 5 is_stmt 1 discriminator 2 view .LVU795
 1169:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     hsai->ErrorCode = HAL_SAI_ERROR_NONE;
-ARM GAS  /tmp/ccZ5Ku77.s 			page 89
+ARM GAS  /tmp/ccigjPNl.s 			page 89
 
 
  2182              		.loc 1 1169 21 is_stmt 0 discriminator 2 view .LVU796
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  2221 0054 0343     		orrs	r3, r3, r0
  2222 0056 1361     		str	r3, [r2, #16]
 1190:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     {
-ARM GAS  /tmp/ccZ5Ku77.s 			page 90
+ARM GAS  /tmp/ccigjPNl.s 			page 90
 
 
  2223              		.loc 1 1190 5 is_stmt 1 view .LVU812
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  2262 0080 A367     		str	r3, [r4, #120]
  2263 0082 E1E7     		b	.L166
  2264              	.LVL138:
-ARM GAS  /tmp/ccZ5Ku77.s 			page 91
+ARM GAS  /tmp/ccigjPNl.s 			page 91
 
 
  2265              	.L169:
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  2315              	.LFB150:
 1214:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   /* Process Locked */
  2316              		.loc 1 1214 1 is_stmt 1 view -0
-ARM GAS  /tmp/ccZ5Ku77.s 			page 92
+ARM GAS  /tmp/ccigjPNl.s 			page 92
 
 
  2317              		.cfi_startproc
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  2355 0024 7047     		bx	lr
  2356              		.cfi_endproc
  2357              	.LFE150:
-ARM GAS  /tmp/ccZ5Ku77.s 			page 93
+ARM GAS  /tmp/ccigjPNl.s 			page 93
 
 
  2359              		.section	.text.HAL_SAI_DMAResume,"ax",%progbits
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  2400 0022 1A68     		ldr	r2, [r3]
  2401 0024 42F48032 		orr	r2, r2, #65536
  2402 0028 1A60     		str	r2, [r3]
-ARM GAS  /tmp/ccZ5Ku77.s 			page 94
+ARM GAS  /tmp/ccigjPNl.s 			page 94
 
 
  2403              	.L184:
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  2448              	.LVL153:
 1265:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
  2449              		.loc 1 1265 3 view .LVU876
-ARM GAS  /tmp/ccZ5Ku77.s 			page 95
+ARM GAS  /tmp/ccigjPNl.s 			page 95
 
 
 1265:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1285:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   {
  2488              		.loc 1 1285 38 discriminator 1 view .LVU893
  2489 0030 94F87D30 		ldrb	r3, [r4, #125]	@ zero_extendqisi2
-ARM GAS  /tmp/ccZ5Ku77.s 			page 96
+ARM GAS  /tmp/ccigjPNl.s 			page 96
 
 
  2490 0034 DBB2     		uxtb	r3, r3
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  2530              		.loc 1 1276 7 is_stmt 1 view .LVU907
 1276:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       {
  2531              		.loc 1 1276 15 is_stmt 0 view .LVU908
-ARM GAS  /tmp/ccZ5Ku77.s 			page 97
+ARM GAS  /tmp/ccigjPNl.s 			page 97
 
 
  2532 0064 E36E     		ldr	r3, [r4, #108]
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  2571 008e 5B6D     		ldr	r3, [r3, #84]
 1290:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       {
  2572              		.loc 1 1290 10 view .LVU924
-ARM GAS  /tmp/ccZ5Ku77.s 			page 98
+ARM GAS  /tmp/ccigjPNl.s 			page 98
 
 
  2573 0090 802B     		cmp	r3, #128
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1324:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
  2619              		.loc 1 1324 3 view .LVU935
  2620 0002 90F87C30 		ldrb	r3, [r0, #124]	@ zero_extendqisi2
-ARM GAS  /tmp/ccZ5Ku77.s 			page 99
+ARM GAS  /tmp/ccigjPNl.s 			page 99
 
 
  2621 0006 012B     		cmp	r3, #1
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1347:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     {
  2659              		.loc 1 1347 14 is_stmt 0 view .LVU952
  2660 0034 206F     		ldr	r0, [r4, #112]
-ARM GAS  /tmp/ccZ5Ku77.s 			page 100
+ARM GAS  /tmp/ccigjPNl.s 			page 100
 
 
 1347:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     {
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  2698 0060 FFF7FEFF 		bl	HAL_DMA_Abort
  2699              	.LVL174:
 1335:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       {
-ARM GAS  /tmp/ccZ5Ku77.s 			page 101
+ARM GAS  /tmp/ccigjPNl.s 			page 101
 
 
  2700              		.loc 1 1335 10 view .LVU970
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  2740 008c 2368     		ldr	r3, [r4]
 1361:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   hsai->Instance->CLRFR = 0xFFFFFFFFU;
  2741              		.loc 1 1361 23 view .LVU985
-ARM GAS  /tmp/ccZ5Ku77.s 			page 102
+ARM GAS  /tmp/ccigjPNl.s 			page 102
 
 
  2742 008e 0025     		movs	r5, #0
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  2784              		.syntax unified
  2785              		.thumb
  2786              		.thumb_func
-ARM GAS  /tmp/ccZ5Ku77.s 			page 103
+ARM GAS  /tmp/ccigjPNl.s 			page 103
 
 
  2788              	HAL_SAI_Transmit_DMA:
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1399:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
  2831              		.loc 1 1399 5 discriminator 2 view .LVU1010
  2832 002c 0123     		movs	r3, #1
-ARM GAS  /tmp/ccZ5Ku77.s 			page 104
+ARM GAS  /tmp/ccigjPNl.s 			page 104
 
 
  2833 002e 84F87C30 		strb	r3, [r4, #124]
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  2867              		.loc 1 1414 37 discriminator 2 view .LVU1030
  2868 0058 2649     		ldr	r1, .L220+8
  2869 005a D164     		str	r1, [r2, #76]
-ARM GAS  /tmp/ccZ5Ku77.s 			page 105
+ARM GAS  /tmp/ccigjPNl.s 			page 105
 
 
 1417:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  2909              		.loc 1 1433 48 view .LVU1045
 1433:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     {
  2910              		.loc 1 1433 17 is_stmt 0 view .LVU1046
-ARM GAS  /tmp/ccZ5Ku77.s 			page 106
+ARM GAS  /tmp/ccigjPNl.s 			page 106
 
 
  2911 008e 2368     		ldr	r3, [r4]
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  2947              		.loc 1 1423 7 view .LVU1064
 1423:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     }
  2948              		.loc 1 1423 15 is_stmt 0 view .LVU1065
-ARM GAS  /tmp/ccZ5Ku77.s 			page 107
+ARM GAS  /tmp/ccigjPNl.s 			page 107
 
 
  2949 00c0 0DE0     		b	.L209
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  2990              		.align	2
  2991              	.L220:
  2992 00ec 00000000 		.word	SAI_DMATxHalfCplt
-ARM GAS  /tmp/ccZ5Ku77.s 			page 108
+ARM GAS  /tmp/ccigjPNl.s 			page 108
 
 
  2993 00f0 00000000 		.word	SAI_DMATxCplt
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  3039              		.loc 1 1485 5 is_stmt 0 view .LVU1088
  3040 001c 012A     		cmp	r2, #1
  3041 001e 46D0     		beq	.L228
-ARM GAS  /tmp/ccZ5Ku77.s 			page 109
+ARM GAS  /tmp/ccigjPNl.s 			page 109
 
 
 1485:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  3077 0046 D163     		str	r1, [r2, #60]
 1500:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
  3078              		.loc 1 1500 5 is_stmt 1 discriminator 2 view .LVU1108
-ARM GAS  /tmp/ccZ5Ku77.s 			page 110
+ARM GAS  /tmp/ccigjPNl.s 			page 110
 
 
 1500:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  3117              	.LVL197:
  3118 0076 2268     		ldr	r2, [r4]
  3119 0078 1369     		ldr	r3, [r2, #16]
-ARM GAS  /tmp/ccZ5Ku77.s 			page 111
+ARM GAS  /tmp/ccigjPNl.s 			page 111
 
 
  3120 007a 0343     		orrs	r3, r3, r0
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  3158              		.loc 1 1534 1 view .LVU1140
  3159 00a6 2846     		mov	r0, r5
  3160 00a8 70BD     		pop	{r4, r5, r6, pc}
-ARM GAS  /tmp/ccZ5Ku77.s 			page 112
+ARM GAS  /tmp/ccigjPNl.s 			page 112
 
 
  3161              	.LVL200:
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1549:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     SET_BIT(hsai->Instance->CR2, SAI_xCR2_MUTE | val);
  3208              		.loc 1 1549 5 is_stmt 1 view .LVU1150
  3209 000a 0268     		ldr	r2, [r0]
-ARM GAS  /tmp/ccZ5Ku77.s 			page 113
+ARM GAS  /tmp/ccigjPNl.s 			page 113
 
 
  3210 000c 5368     		ldr	r3, [r2, #4]
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  3255              	.LVL209:
  3256              	.L239:
 1566:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     return HAL_OK;
-ARM GAS  /tmp/ccZ5Ku77.s 			page 114
+ARM GAS  /tmp/ccigjPNl.s 			page 114
 
 
  3257              		.loc 1 1566 5 is_stmt 1 view .LVU1162
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  3302              		.cfi_def_cfa_offset 4
  3303              		.cfi_offset 4, -4
 1587:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     SET_BIT(hsai->Instance->CR2, (uint32_t)((uint32_t)counter << SAI_xCR2_MUTECNT_Pos));
-ARM GAS  /tmp/ccZ5Ku77.s 			page 115
+ARM GAS  /tmp/ccigjPNl.s 			page 115
 
 
  3304              		.loc 1 1587 5 is_stmt 1 view .LVU1174
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  3351              		@ link register save eliminated.
 1605:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   {
  3352              		.loc 1 1605 3 view .LVU1184
-ARM GAS  /tmp/ccZ5Ku77.s 			page 116
+ARM GAS  /tmp/ccigjPNl.s 			page 116
 
 
 1605:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   {
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  3397              		.loc 1 1820 3 view .LVU1196
 1825:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
  3398              		.loc 1 1825 1 is_stmt 0 view .LVU1197
-ARM GAS  /tmp/ccZ5Ku77.s 			page 117
+ARM GAS  /tmp/ccigjPNl.s 			page 117
 
 
  3399 0000 7047     		bx	lr
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 2245:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** #if (USE_HAL_SAI_REGISTER_CALLBACKS == 1)
 2246:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     hsai->TxCpltCallback(hsai);
 2247:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** #else
-ARM GAS  /tmp/ccZ5Ku77.s 			page 118
+ARM GAS  /tmp/ccigjPNl.s 			page 118
 
 
 2248:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     HAL_SAI_TxCpltCallback(hsai);
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  3430 000a 426E     		ldr	r2, [r0, #100]
  3431              		.loc 1 2283 9 view .LVU1205
  3432 000c 0368     		ldr	r3, [r0]
-ARM GAS  /tmp/ccZ5Ku77.s 			page 119
+ARM GAS  /tmp/ccigjPNl.s 			page 119
 
 
  3433              		.loc 1 2283 26 view .LVU1206
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  3479              		.thumb
  3480              		.thumb_func
  3482              	SAI_Transmit_IT16Bit:
-ARM GAS  /tmp/ccZ5Ku77.s 			page 120
+ARM GAS  /tmp/ccigjPNl.s 			page 120
 
 
  3483              	.LVL226:
@@ -7198,7 +7198,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  3521 001e A0F86A30 		strh	r3, [r0, #106]	@ movhi
  3522              	.LVL227:
  3523              	.L258:
-ARM GAS  /tmp/ccZ5Ku77.s 			page 121
+ARM GAS  /tmp/ccigjPNl.s 			page 121
 
 
 2258:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
@@ -7258,7 +7258,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  3570              		.loc 1 2211 11 is_stmt 0 view .LVU1245
  3571 0004 B0F86A30 		ldrh	r3, [r0, #106]
 2211:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   {
-ARM GAS  /tmp/ccZ5Ku77.s 			page 122
+ARM GAS  /tmp/ccigjPNl.s 			page 122
 
 
  3572              		.loc 1 2211 6 view .LVU1246
@@ -7318,7 +7318,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  3611              		.loc 1 2220 5 is_stmt 1 view .LVU1261
  3612 0038 2046     		mov	r0, r4
  3613 003a FFF7FEFF 		bl	HAL_SAI_TxCpltCallback
-ARM GAS  /tmp/ccZ5Ku77.s 			page 123
+ARM GAS  /tmp/ccigjPNl.s 			page 123
 
 
  3614              	.LVL235:
@@ -7378,7 +7378,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 2330:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   hsai->XferCount--;
 2331:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
 2332:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   /* Check end of the transfer */
-ARM GAS  /tmp/ccZ5Ku77.s 			page 124
+ARM GAS  /tmp/ccigjPNl.s 			page 124
 
 
 2333:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   if (hsai->XferCount == 0)
@@ -7438,7 +7438,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 2387:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** static void SAI_DMATxCplt(DMA_HandleTypeDef *hdma)
 2388:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** {
  3628              		.loc 1 2388 1 view -0
-ARM GAS  /tmp/ccZ5Ku77.s 			page 125
+ARM GAS  /tmp/ccigjPNl.s 			page 125
 
 
  3629              		.cfi_startproc
@@ -7498,7 +7498,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  3670              		.loc 1 2401 5 is_stmt 1 view .LVU1277
  3671              		.loc 1 2401 17 is_stmt 0 view .LVU1278
  3672 002c 0123     		movs	r3, #1
-ARM GAS  /tmp/ccZ5Ku77.s 			page 126
+ARM GAS  /tmp/ccigjPNl.s 			page 126
 
 
  3673 002e 84F87D30 		strb	r3, [r4, #125]
@@ -7558,7 +7558,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 2415:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   */
 2416:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** static void SAI_DMATxHalfCplt(DMA_HandleTypeDef *hdma)
 2417:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** {
-ARM GAS  /tmp/ccZ5Ku77.s 			page 127
+ARM GAS  /tmp/ccigjPNl.s 			page 127
 
 
  3715              		.loc 1 2417 1 is_stmt 1 view -0
@@ -7618,7 +7618,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  3761              		.syntax unified
  3762              		.thumb
  3763              		.thumb_func
-ARM GAS  /tmp/ccZ5Ku77.s 			page 128
+ARM GAS  /tmp/ccigjPNl.s 			page 128
 
 
  3765              	SAI_Receive_IT32Bit:
@@ -7678,7 +7678,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  3804              		.cfi_offset 14, -4
  3805 0020 0446     		mov	r4, r0
 2367:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
-ARM GAS  /tmp/ccZ5Ku77.s 			page 129
+ARM GAS  /tmp/ccigjPNl.s 			page 129
 
 
  3806              		.loc 1 2367 5 is_stmt 1 view .LVU1309
@@ -7738,7 +7738,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  3850              		.loc 1 2328 20 view .LVU1321
  3851 0004 436E     		ldr	r3, [r0, #100]
 2328:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   hsai->pBuffPtr += 2;
-ARM GAS  /tmp/ccZ5Ku77.s 			page 130
+ARM GAS  /tmp/ccigjPNl.s 			page 130
 
 
  3852              		.loc 1 2328 31 view .LVU1322
@@ -7798,7 +7798,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 2341:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** #if (USE_HAL_SAI_REGISTER_CALLBACKS == 1)
  3893              		.loc 1 2341 17 is_stmt 0 view .LVU1336
  3894 0038 84F87D30 		strb	r3, [r4, #125]
-ARM GAS  /tmp/ccZ5Ku77.s 			page 131
+ARM GAS  /tmp/ccigjPNl.s 			page 131
 
 
 2345:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** #endif /* USE_HAL_SAI_REGISTER_CALLBACKS */
@@ -7858,7 +7858,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  3937              		.loc 1 2302 3 is_stmt 1 view .LVU1350
 2302:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   {
  3938              		.loc 1 2302 6 is_stmt 0 view .LVU1351
-ARM GAS  /tmp/ccZ5Ku77.s 			page 132
+ARM GAS  /tmp/ccigjPNl.s 			page 132
 
 
  3939 0018 03B1     		cbz	r3, .L295
@@ -7918,7 +7918,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 2428:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   * @brief DMA SAI receive process complete callback.
 2429:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   * @param  hdma pointer to a DMA_HandleTypeDef structure that contains
 2430:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   *                the configuration information for the specified DMA module.
-ARM GAS  /tmp/ccZ5Ku77.s 			page 133
+ARM GAS  /tmp/ccigjPNl.s 			page 133
 
 
 2431:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   * @retval None
@@ -7978,7 +7978,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  4024 0026 23EA0003 		bic	r3, r3, r0
  4025 002a 1361     		str	r3, [r2, #16]
 2445:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
-ARM GAS  /tmp/ccZ5Ku77.s 			page 134
+ARM GAS  /tmp/ccigjPNl.s 			page 134
 
 
 2446:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     hsai->State = HAL_SAI_STATE_READY;
@@ -8038,7 +8038,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 2456:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   * @brief DMA SAI receive process half complete callback
 2457:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   * @param  hdma pointer to a DMA_HandleTypeDef structure that contains
 2458:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   *                the configuration information for the specified DMA module.
-ARM GAS  /tmp/ccZ5Ku77.s 			page 135
+ARM GAS  /tmp/ccigjPNl.s 			page 135
 
 
 2459:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   * @retval None
@@ -8098,7 +8098,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  4112              		.cfi_endproc
  4113              	.LFE165:
  4115              		.section	.text.SAI_DMAError,"ax",%progbits
-ARM GAS  /tmp/ccZ5Ku77.s 			page 136
+ARM GAS  /tmp/ccigjPNl.s 			page 136
 
 
  4116              		.align	1
@@ -8158,7 +8158,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  4156              		.loc 1 2485 53 discriminator 1 view .LVU1406
  4157 001c 012B     		cmp	r3, #1
  4158 001e 03D0     		beq	.L304
-ARM GAS  /tmp/ccZ5Ku77.s 			page 137
+ARM GAS  /tmp/ccigjPNl.s 			page 137
 
 
  4159              	.LVL269:
@@ -8218,7 +8218,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  4185 0038 0123     		movs	r3, #1
  4186 003a 84F87D30 		strb	r3, [r4, #125]
 2497:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   }
-ARM GAS  /tmp/ccZ5Ku77.s 			page 138
+ARM GAS  /tmp/ccigjPNl.s 			page 138
 
 
  4187              		.loc 1 2497 5 is_stmt 1 view .LVU1417
@@ -8278,7 +8278,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  4232              	.LVL276:
 1628:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     uint32_t tmperror;
  4233              		.loc 1 1628 5 is_stmt 1 view .LVU1429
-ARM GAS  /tmp/ccZ5Ku77.s 			page 139
+ARM GAS  /tmp/ccigjPNl.s 			page 139
 
 
 1628:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     uint32_t tmperror;
@@ -8338,7 +8338,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  4272              		.loc 1 1640 7 is_stmt 0 view .LVU1445
  4273 0038 9A61     		str	r2, [r3, #24]
 1642:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       /* Change the SAI error code */
-ARM GAS  /tmp/ccZ5Ku77.s 			page 140
+ARM GAS  /tmp/ccigjPNl.s 			page 140
 
 
  4274              		.loc 1 1642 7 is_stmt 1 view .LVU1446
@@ -8398,7 +8398,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  4313              		.loc 1 1658 15 is_stmt 0 view .LVU1461
  4314 0068 636F     		ldr	r3, [r4, #116]
 1658:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       {
-ARM GAS  /tmp/ccZ5Ku77.s 			page 141
+ARM GAS  /tmp/ccigjPNl.s 			page 141
 
 
  4315              		.loc 1 1658 10 view .LVU1462
@@ -8458,7 +8458,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
 1679:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
  4353              		.loc 1 1679 43 is_stmt 0 view .LVU1479
  4354 0098 404A     		ldr	r2, .L327
-ARM GAS  /tmp/ccZ5Ku77.s 			page 142
+ARM GAS  /tmp/ccigjPNl.s 			page 142
 
 
  4355 009a 1A65     		str	r2, [r3, #80]
@@ -8518,7 +8518,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  4395              	.LVL298:
  4396 00c2 B1E7     		b	.L307
  4397              	.LVL299:
-ARM GAS  /tmp/ccZ5Ku77.s 			page 143
+ARM GAS  /tmp/ccigjPNl.s 			page 143
 
 
  4398              	.L313:
@@ -8578,7 +8578,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  4435              	.LVL302:
 1723:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****         }
  4436              		.loc 1 1723 11 view .LVU1511
-ARM GAS  /tmp/ccZ5Ku77.s 			page 144
+ARM GAS  /tmp/ccigjPNl.s 			page 144
 
 
  4437 00f4 98E7     		b	.L307
@@ -8638,7 +8638,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  4477              		.loc 1 1747 63 discriminator 1 view .LVU1525
  4478 011c 11F0040F 		tst	r1, #4
  4479 0120 27D0     		beq	.L319
-ARM GAS  /tmp/ccZ5Ku77.s 			page 145
+ARM GAS  /tmp/ccigjPNl.s 			page 145
 
 
 1750:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
@@ -8698,7 +8698,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  4516              		.loc 1 1766 41 is_stmt 0 view .LVU1543
  4517 0146 154A     		ldr	r2, .L327
  4518 0148 1A65     		str	r2, [r3, #80]
-ARM GAS  /tmp/ccZ5Ku77.s 			page 146
+ARM GAS  /tmp/ccigjPNl.s 			page 146
 
 
 1768:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****       }
@@ -8758,7 +8758,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  4557              	.LVL321:
  4558              	.L319:
 1791:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****     {
-ARM GAS  /tmp/ccZ5Ku77.s 			page 147
+ARM GAS  /tmp/ccigjPNl.s 			page 147
 
 
  4559              		.loc 1 1791 10 is_stmt 1 view .LVU1560
@@ -8818,7 +8818,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  4602              		.section	.text.SAI_DMAAbort,"ax",%progbits
  4603              		.align	1
  4604              		.syntax unified
-ARM GAS  /tmp/ccZ5Ku77.s 			page 148
+ARM GAS  /tmp/ccigjPNl.s 			page 148
 
 
  4605              		.thumb
@@ -8878,7 +8878,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  4643 0016 4FF0FF32 		mov	r2, #-1
  4644 001a 9A61     		str	r2, [r3, #24]
 2523:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c **** 
-ARM GAS  /tmp/ccZ5Ku77.s 			page 149
+ARM GAS  /tmp/ccigjPNl.s 			page 149
 
 
 2524:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sai.c ****   if (hsai->ErrorCode != HAL_SAI_ERROR_WCKCFG)
@@ -8938,7 +8938,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  4675              		.loc 1 2530 5 is_stmt 1 view .LVU1598
  4676 003e 2268     		ldr	r2, [r4]
  4677 0040 5368     		ldr	r3, [r2, #4]
-ARM GAS  /tmp/ccZ5Ku77.s 			page 150
+ARM GAS  /tmp/ccigjPNl.s 			page 150
 
 
  4678 0042 43F00803 		orr	r3, r3, #8
@@ -8998,7 +8998,7 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  4728 0004 7047     		bx	lr
  4729              		.cfi_endproc
  4730              	.LFE167:
-ARM GAS  /tmp/ccZ5Ku77.s 			page 151
+ARM GAS  /tmp/ccigjPNl.s 			page 151
 
 
  4732              		.text
@@ -9012,113 +9012,113 @@ ARM GAS  /tmp/ccZ5Ku77.s 			page 1
  4740              		.file 8 "Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc_ex.h"
  4741              		.file 9 "Drivers/CMSIS/Device/ST/STM32F7xx/Include/system_stm32f7xx.h"
  4742              		.file 10 "Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h"
-ARM GAS  /tmp/ccZ5Ku77.s 			page 152
+ARM GAS  /tmp/ccigjPNl.s 			page 152
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f7xx_hal_sai.c
-     /tmp/ccZ5Ku77.s:21     .text.SAI_InitI2S:00000000 $t
-     /tmp/ccZ5Ku77.s:26     .text.SAI_InitI2S:00000000 SAI_InitI2S
-     /tmp/ccZ5Ku77.s:95     .text.SAI_InitI2S:00000040 $d
-     /tmp/ccZ5Ku77.s:99     .text.SAI_InitI2S:00000044 $t
-     /tmp/ccZ5Ku77.s:287    .text.SAI_InitPCM:00000000 $t
-     /tmp/ccZ5Ku77.s:292    .text.SAI_InitPCM:00000000 SAI_InitPCM
-     /tmp/ccZ5Ku77.s:364    .text.SAI_InitPCM:00000040 $d
-     /tmp/ccZ5Ku77.s:369    .text.SAI_InitPCM:00000044 $t
-     /tmp/ccZ5Ku77.s:498    .text.SAI_FillFifo:00000000 $t
-     /tmp/ccZ5Ku77.s:503    .text.SAI_FillFifo:00000000 SAI_FillFifo
-     /tmp/ccZ5Ku77.s:598    .text.SAI_InterruptFlag:00000000 $t
-     /tmp/ccZ5Ku77.s:603    .text.SAI_InterruptFlag:00000000 SAI_InterruptFlag
-     /tmp/ccZ5Ku77.s:673    .text.SAI_Disable:00000000 $t
-     /tmp/ccZ5Ku77.s:678    .text.SAI_Disable:00000000 SAI_Disable
-     /tmp/ccZ5Ku77.s:745    .text.SAI_Disable:0000003c $d
-     /tmp/ccZ5Ku77.s:751    .text.HAL_SAI_MspInit:00000000 $t
-     /tmp/ccZ5Ku77.s:757    .text.HAL_SAI_MspInit:00000000 HAL_SAI_MspInit
-     /tmp/ccZ5Ku77.s:772    .text.HAL_SAI_Init:00000000 $t
-     /tmp/ccZ5Ku77.s:778    .text.HAL_SAI_Init:00000000 HAL_SAI_Init
-     /tmp/ccZ5Ku77.s:1257   .text.HAL_SAI_Init:000001f0 $d
-     /tmp/ccZ5Ku77.s:1270   .text.HAL_SAI_InitProtocol:00000000 $t
-     /tmp/ccZ5Ku77.s:1276   .text.HAL_SAI_InitProtocol:00000000 HAL_SAI_InitProtocol
-     /tmp/ccZ5Ku77.s:1345   .text.HAL_SAI_MspDeInit:00000000 $t
-     /tmp/ccZ5Ku77.s:1351   .text.HAL_SAI_MspDeInit:00000000 HAL_SAI_MspDeInit
-     /tmp/ccZ5Ku77.s:1366   .text.HAL_SAI_DeInit:00000000 $t
-     /tmp/ccZ5Ku77.s:1372   .text.HAL_SAI_DeInit:00000000 HAL_SAI_DeInit
-     /tmp/ccZ5Ku77.s:1451   .text.HAL_SAI_Transmit:00000000 $t
-     /tmp/ccZ5Ku77.s:1457   .text.HAL_SAI_Transmit:00000000 HAL_SAI_Transmit
-     /tmp/ccZ5Ku77.s:1707   .text.HAL_SAI_Receive:00000000 $t
-     /tmp/ccZ5Ku77.s:1713   .text.HAL_SAI_Receive:00000000 HAL_SAI_Receive
-     /tmp/ccZ5Ku77.s:1954   .text.HAL_SAI_Transmit_IT:00000000 $t
-     /tmp/ccZ5Ku77.s:1960   .text.HAL_SAI_Transmit_IT:00000000 HAL_SAI_Transmit_IT
-     /tmp/ccZ5Ku77.s:2124   .text.HAL_SAI_Transmit_IT:00000098 $d
-     /tmp/ccZ5Ku77.s:3482   .text.SAI_Transmit_IT16Bit:00000000 SAI_Transmit_IT16Bit
-     /tmp/ccZ5Ku77.s:3555   .text.SAI_Transmit_IT8Bit:00000000 SAI_Transmit_IT8Bit
-     /tmp/ccZ5Ku77.s:3409   .text.SAI_Transmit_IT32Bit:00000000 SAI_Transmit_IT32Bit
-     /tmp/ccZ5Ku77.s:2131   .text.HAL_SAI_Receive_IT:00000000 $t
-     /tmp/ccZ5Ku77.s:2137   .text.HAL_SAI_Receive_IT:00000000 HAL_SAI_Receive_IT
-     /tmp/ccZ5Ku77.s:2300   .text.HAL_SAI_Receive_IT:00000090 $d
-     /tmp/ccZ5Ku77.s:3838   .text.SAI_Receive_IT16Bit:00000000 SAI_Receive_IT16Bit
-     /tmp/ccZ5Ku77.s:3911   .text.SAI_Receive_IT8Bit:00000000 SAI_Receive_IT8Bit
-     /tmp/ccZ5Ku77.s:3765   .text.SAI_Receive_IT32Bit:00000000 SAI_Receive_IT32Bit
-     /tmp/ccZ5Ku77.s:2307   .text.HAL_SAI_DMAPause:00000000 $t
-     /tmp/ccZ5Ku77.s:2313   .text.HAL_SAI_DMAPause:00000000 HAL_SAI_DMAPause
-     /tmp/ccZ5Ku77.s:2360   .text.HAL_SAI_DMAResume:00000000 $t
-     /tmp/ccZ5Ku77.s:2366   .text.HAL_SAI_DMAResume:00000000 HAL_SAI_DMAResume
-     /tmp/ccZ5Ku77.s:2426   .text.HAL_SAI_DMAStop:00000000 $t
-     /tmp/ccZ5Ku77.s:2432   .text.HAL_SAI_DMAStop:00000000 HAL_SAI_DMAStop
-     /tmp/ccZ5Ku77.s:2595   .text.HAL_SAI_Abort:00000000 $t
-     /tmp/ccZ5Ku77.s:2601   .text.HAL_SAI_Abort:00000000 HAL_SAI_Abort
-     /tmp/ccZ5Ku77.s:2782   .text.HAL_SAI_Transmit_DMA:00000000 $t
-     /tmp/ccZ5Ku77.s:2788   .text.HAL_SAI_Transmit_DMA:00000000 HAL_SAI_Transmit_DMA
-     /tmp/ccZ5Ku77.s:2992   .text.HAL_SAI_Transmit_DMA:000000ec $d
-     /tmp/ccZ5Ku77.s:3712   .text.SAI_DMATxHalfCplt:00000000 SAI_DMATxHalfCplt
-     /tmp/ccZ5Ku77.s:3625   .text.SAI_DMATxCplt:00000000 SAI_DMATxCplt
-ARM GAS  /tmp/ccZ5Ku77.s 			page 153
+     /tmp/ccigjPNl.s:21     .text.SAI_InitI2S:00000000 $t
+     /tmp/ccigjPNl.s:26     .text.SAI_InitI2S:00000000 SAI_InitI2S
+     /tmp/ccigjPNl.s:95     .text.SAI_InitI2S:00000040 $d
+     /tmp/ccigjPNl.s:99     .text.SAI_InitI2S:00000044 $t
+     /tmp/ccigjPNl.s:287    .text.SAI_InitPCM:00000000 $t
+     /tmp/ccigjPNl.s:292    .text.SAI_InitPCM:00000000 SAI_InitPCM
+     /tmp/ccigjPNl.s:364    .text.SAI_InitPCM:00000040 $d
+     /tmp/ccigjPNl.s:369    .text.SAI_InitPCM:00000044 $t
+     /tmp/ccigjPNl.s:498    .text.SAI_FillFifo:00000000 $t
+     /tmp/ccigjPNl.s:503    .text.SAI_FillFifo:00000000 SAI_FillFifo
+     /tmp/ccigjPNl.s:598    .text.SAI_InterruptFlag:00000000 $t
+     /tmp/ccigjPNl.s:603    .text.SAI_InterruptFlag:00000000 SAI_InterruptFlag
+     /tmp/ccigjPNl.s:673    .text.SAI_Disable:00000000 $t
+     /tmp/ccigjPNl.s:678    .text.SAI_Disable:00000000 SAI_Disable
+     /tmp/ccigjPNl.s:745    .text.SAI_Disable:0000003c $d
+     /tmp/ccigjPNl.s:751    .text.HAL_SAI_MspInit:00000000 $t
+     /tmp/ccigjPNl.s:757    .text.HAL_SAI_MspInit:00000000 HAL_SAI_MspInit
+     /tmp/ccigjPNl.s:772    .text.HAL_SAI_Init:00000000 $t
+     /tmp/ccigjPNl.s:778    .text.HAL_SAI_Init:00000000 HAL_SAI_Init
+     /tmp/ccigjPNl.s:1257   .text.HAL_SAI_Init:000001f0 $d
+     /tmp/ccigjPNl.s:1270   .text.HAL_SAI_InitProtocol:00000000 $t
+     /tmp/ccigjPNl.s:1276   .text.HAL_SAI_InitProtocol:00000000 HAL_SAI_InitProtocol
+     /tmp/ccigjPNl.s:1345   .text.HAL_SAI_MspDeInit:00000000 $t
+     /tmp/ccigjPNl.s:1351   .text.HAL_SAI_MspDeInit:00000000 HAL_SAI_MspDeInit
+     /tmp/ccigjPNl.s:1366   .text.HAL_SAI_DeInit:00000000 $t
+     /tmp/ccigjPNl.s:1372   .text.HAL_SAI_DeInit:00000000 HAL_SAI_DeInit
+     /tmp/ccigjPNl.s:1451   .text.HAL_SAI_Transmit:00000000 $t
+     /tmp/ccigjPNl.s:1457   .text.HAL_SAI_Transmit:00000000 HAL_SAI_Transmit
+     /tmp/ccigjPNl.s:1707   .text.HAL_SAI_Receive:00000000 $t
+     /tmp/ccigjPNl.s:1713   .text.HAL_SAI_Receive:00000000 HAL_SAI_Receive
+     /tmp/ccigjPNl.s:1954   .text.HAL_SAI_Transmit_IT:00000000 $t
+     /tmp/ccigjPNl.s:1960   .text.HAL_SAI_Transmit_IT:00000000 HAL_SAI_Transmit_IT
+     /tmp/ccigjPNl.s:2124   .text.HAL_SAI_Transmit_IT:00000098 $d
+     /tmp/ccigjPNl.s:3482   .text.SAI_Transmit_IT16Bit:00000000 SAI_Transmit_IT16Bit
+     /tmp/ccigjPNl.s:3555   .text.SAI_Transmit_IT8Bit:00000000 SAI_Transmit_IT8Bit
+     /tmp/ccigjPNl.s:3409   .text.SAI_Transmit_IT32Bit:00000000 SAI_Transmit_IT32Bit
+     /tmp/ccigjPNl.s:2131   .text.HAL_SAI_Receive_IT:00000000 $t
+     /tmp/ccigjPNl.s:2137   .text.HAL_SAI_Receive_IT:00000000 HAL_SAI_Receive_IT
+     /tmp/ccigjPNl.s:2300   .text.HAL_SAI_Receive_IT:00000090 $d
+     /tmp/ccigjPNl.s:3838   .text.SAI_Receive_IT16Bit:00000000 SAI_Receive_IT16Bit
+     /tmp/ccigjPNl.s:3911   .text.SAI_Receive_IT8Bit:00000000 SAI_Receive_IT8Bit
+     /tmp/ccigjPNl.s:3765   .text.SAI_Receive_IT32Bit:00000000 SAI_Receive_IT32Bit
+     /tmp/ccigjPNl.s:2307   .text.HAL_SAI_DMAPause:00000000 $t
+     /tmp/ccigjPNl.s:2313   .text.HAL_SAI_DMAPause:00000000 HAL_SAI_DMAPause
+     /tmp/ccigjPNl.s:2360   .text.HAL_SAI_DMAResume:00000000 $t
+     /tmp/ccigjPNl.s:2366   .text.HAL_SAI_DMAResume:00000000 HAL_SAI_DMAResume
+     /tmp/ccigjPNl.s:2426   .text.HAL_SAI_DMAStop:00000000 $t
+     /tmp/ccigjPNl.s:2432   .text.HAL_SAI_DMAStop:00000000 HAL_SAI_DMAStop
+     /tmp/ccigjPNl.s:2595   .text.HAL_SAI_Abort:00000000 $t
+     /tmp/ccigjPNl.s:2601   .text.HAL_SAI_Abort:00000000 HAL_SAI_Abort
+     /tmp/ccigjPNl.s:2782   .text.HAL_SAI_Transmit_DMA:00000000 $t
+     /tmp/ccigjPNl.s:2788   .text.HAL_SAI_Transmit_DMA:00000000 HAL_SAI_Transmit_DMA
+     /tmp/ccigjPNl.s:2992   .text.HAL_SAI_Transmit_DMA:000000ec $d
+     /tmp/ccigjPNl.s:3712   .text.SAI_DMATxHalfCplt:00000000 SAI_DMATxHalfCplt
+     /tmp/ccigjPNl.s:3625   .text.SAI_DMATxCplt:00000000 SAI_DMATxCplt
+ARM GAS  /tmp/ccigjPNl.s 			page 153
 
 
-     /tmp/ccZ5Ku77.s:4121   .text.SAI_DMAError:00000000 SAI_DMAError
-     /tmp/ccZ5Ku77.s:2999   .text.HAL_SAI_Receive_DMA:00000000 $t
-     /tmp/ccZ5Ku77.s:3005   .text.HAL_SAI_Receive_DMA:00000000 HAL_SAI_Receive_DMA
-     /tmp/ccZ5Ku77.s:3174   .text.HAL_SAI_Receive_DMA:000000b4 $d
-     /tmp/ccZ5Ku77.s:4068   .text.SAI_DMARxHalfCplt:00000000 SAI_DMARxHalfCplt
-     /tmp/ccZ5Ku77.s:3981   .text.SAI_DMARxCplt:00000000 SAI_DMARxCplt
-     /tmp/ccZ5Ku77.s:3181   .text.HAL_SAI_EnableTxMuteMode:00000000 $t
-     /tmp/ccZ5Ku77.s:3187   .text.HAL_SAI_EnableTxMuteMode:00000000 HAL_SAI_EnableTxMuteMode
-     /tmp/ccZ5Ku77.s:3231   .text.HAL_SAI_DisableTxMuteMode:00000000 $t
-     /tmp/ccZ5Ku77.s:3237   .text.HAL_SAI_DisableTxMuteMode:00000000 HAL_SAI_DisableTxMuteMode
-     /tmp/ccZ5Ku77.s:3272   .text.HAL_SAI_EnableRxMuteMode:00000000 $t
-     /tmp/ccZ5Ku77.s:3278   .text.HAL_SAI_EnableRxMuteMode:00000000 HAL_SAI_EnableRxMuteMode
-     /tmp/ccZ5Ku77.s:3338   .text.HAL_SAI_DisableRxMuteMode:00000000 $t
-     /tmp/ccZ5Ku77.s:3344   .text.HAL_SAI_DisableRxMuteMode:00000000 HAL_SAI_DisableRxMuteMode
-     /tmp/ccZ5Ku77.s:3383   .text.HAL_SAI_TxCpltCallback:00000000 $t
-     /tmp/ccZ5Ku77.s:3389   .text.HAL_SAI_TxCpltCallback:00000000 HAL_SAI_TxCpltCallback
-     /tmp/ccZ5Ku77.s:3404   .text.SAI_Transmit_IT32Bit:00000000 $t
-     /tmp/ccZ5Ku77.s:3477   .text.SAI_Transmit_IT16Bit:00000000 $t
-     /tmp/ccZ5Ku77.s:3550   .text.SAI_Transmit_IT8Bit:00000000 $t
-     /tmp/ccZ5Ku77.s:3620   .text.SAI_DMATxCplt:00000000 $t
-     /tmp/ccZ5Ku77.s:3686   .text.HAL_SAI_TxHalfCpltCallback:00000000 $t
-     /tmp/ccZ5Ku77.s:3692   .text.HAL_SAI_TxHalfCpltCallback:00000000 HAL_SAI_TxHalfCpltCallback
-     /tmp/ccZ5Ku77.s:3707   .text.SAI_DMATxHalfCplt:00000000 $t
-     /tmp/ccZ5Ku77.s:3739   .text.HAL_SAI_RxCpltCallback:00000000 $t
-     /tmp/ccZ5Ku77.s:3745   .text.HAL_SAI_RxCpltCallback:00000000 HAL_SAI_RxCpltCallback
-     /tmp/ccZ5Ku77.s:3760   .text.SAI_Receive_IT32Bit:00000000 $t
-     /tmp/ccZ5Ku77.s:3833   .text.SAI_Receive_IT16Bit:00000000 $t
-     /tmp/ccZ5Ku77.s:3906   .text.SAI_Receive_IT8Bit:00000000 $t
-     /tmp/ccZ5Ku77.s:3976   .text.SAI_DMARxCplt:00000000 $t
-     /tmp/ccZ5Ku77.s:4042   .text.HAL_SAI_RxHalfCpltCallback:00000000 $t
-     /tmp/ccZ5Ku77.s:4048   .text.HAL_SAI_RxHalfCpltCallback:00000000 HAL_SAI_RxHalfCpltCallback
-     /tmp/ccZ5Ku77.s:4063   .text.SAI_DMARxHalfCplt:00000000 $t
-     /tmp/ccZ5Ku77.s:4095   .text.HAL_SAI_ErrorCallback:00000000 $t
-     /tmp/ccZ5Ku77.s:4101   .text.HAL_SAI_ErrorCallback:00000000 HAL_SAI_ErrorCallback
-     /tmp/ccZ5Ku77.s:4116   .text.SAI_DMAError:00000000 $t
-     /tmp/ccZ5Ku77.s:4196   .text.HAL_SAI_IRQHandler:00000000 $t
-     /tmp/ccZ5Ku77.s:4202   .text.HAL_SAI_IRQHandler:00000000 HAL_SAI_IRQHandler
-     /tmp/ccZ5Ku77.s:4598   .text.HAL_SAI_IRQHandler:0000019c $d
-     /tmp/ccZ5Ku77.s:4608   .text.SAI_DMAAbort:00000000 SAI_DMAAbort
-     /tmp/ccZ5Ku77.s:4603   .text.SAI_DMAAbort:00000000 $t
-     /tmp/ccZ5Ku77.s:4685   .text.HAL_SAI_GetState:00000000 $t
-     /tmp/ccZ5Ku77.s:4691   .text.HAL_SAI_GetState:00000000 HAL_SAI_GetState
-     /tmp/ccZ5Ku77.s:4709   .text.HAL_SAI_GetError:00000000 $t
-     /tmp/ccZ5Ku77.s:4715   .text.HAL_SAI_GetError:00000000 HAL_SAI_GetError
+     /tmp/ccigjPNl.s:4121   .text.SAI_DMAError:00000000 SAI_DMAError
+     /tmp/ccigjPNl.s:2999   .text.HAL_SAI_Receive_DMA:00000000 $t
+     /tmp/ccigjPNl.s:3005   .text.HAL_SAI_Receive_DMA:00000000 HAL_SAI_Receive_DMA
+     /tmp/ccigjPNl.s:3174   .text.HAL_SAI_Receive_DMA:000000b4 $d
+     /tmp/ccigjPNl.s:4068   .text.SAI_DMARxHalfCplt:00000000 SAI_DMARxHalfCplt
+     /tmp/ccigjPNl.s:3981   .text.SAI_DMARxCplt:00000000 SAI_DMARxCplt
+     /tmp/ccigjPNl.s:3181   .text.HAL_SAI_EnableTxMuteMode:00000000 $t
+     /tmp/ccigjPNl.s:3187   .text.HAL_SAI_EnableTxMuteMode:00000000 HAL_SAI_EnableTxMuteMode
+     /tmp/ccigjPNl.s:3231   .text.HAL_SAI_DisableTxMuteMode:00000000 $t
+     /tmp/ccigjPNl.s:3237   .text.HAL_SAI_DisableTxMuteMode:00000000 HAL_SAI_DisableTxMuteMode
+     /tmp/ccigjPNl.s:3272   .text.HAL_SAI_EnableRxMuteMode:00000000 $t
+     /tmp/ccigjPNl.s:3278   .text.HAL_SAI_EnableRxMuteMode:00000000 HAL_SAI_EnableRxMuteMode
+     /tmp/ccigjPNl.s:3338   .text.HAL_SAI_DisableRxMuteMode:00000000 $t
+     /tmp/ccigjPNl.s:3344   .text.HAL_SAI_DisableRxMuteMode:00000000 HAL_SAI_DisableRxMuteMode
+     /tmp/ccigjPNl.s:3383   .text.HAL_SAI_TxCpltCallback:00000000 $t
+     /tmp/ccigjPNl.s:3389   .text.HAL_SAI_TxCpltCallback:00000000 HAL_SAI_TxCpltCallback
+     /tmp/ccigjPNl.s:3404   .text.SAI_Transmit_IT32Bit:00000000 $t
+     /tmp/ccigjPNl.s:3477   .text.SAI_Transmit_IT16Bit:00000000 $t
+     /tmp/ccigjPNl.s:3550   .text.SAI_Transmit_IT8Bit:00000000 $t
+     /tmp/ccigjPNl.s:3620   .text.SAI_DMATxCplt:00000000 $t
+     /tmp/ccigjPNl.s:3686   .text.HAL_SAI_TxHalfCpltCallback:00000000 $t
+     /tmp/ccigjPNl.s:3692   .text.HAL_SAI_TxHalfCpltCallback:00000000 HAL_SAI_TxHalfCpltCallback
+     /tmp/ccigjPNl.s:3707   .text.SAI_DMATxHalfCplt:00000000 $t
+     /tmp/ccigjPNl.s:3739   .text.HAL_SAI_RxCpltCallback:00000000 $t
+     /tmp/ccigjPNl.s:3745   .text.HAL_SAI_RxCpltCallback:00000000 HAL_SAI_RxCpltCallback
+     /tmp/ccigjPNl.s:3760   .text.SAI_Receive_IT32Bit:00000000 $t
+     /tmp/ccigjPNl.s:3833   .text.SAI_Receive_IT16Bit:00000000 $t
+     /tmp/ccigjPNl.s:3906   .text.SAI_Receive_IT8Bit:00000000 $t
+     /tmp/ccigjPNl.s:3976   .text.SAI_DMARxCplt:00000000 $t
+     /tmp/ccigjPNl.s:4042   .text.HAL_SAI_RxHalfCpltCallback:00000000 $t
+     /tmp/ccigjPNl.s:4048   .text.HAL_SAI_RxHalfCpltCallback:00000000 HAL_SAI_RxHalfCpltCallback
+     /tmp/ccigjPNl.s:4063   .text.SAI_DMARxHalfCplt:00000000 $t
+     /tmp/ccigjPNl.s:4095   .text.HAL_SAI_ErrorCallback:00000000 $t
+     /tmp/ccigjPNl.s:4101   .text.HAL_SAI_ErrorCallback:00000000 HAL_SAI_ErrorCallback
+     /tmp/ccigjPNl.s:4116   .text.SAI_DMAError:00000000 $t
+     /tmp/ccigjPNl.s:4196   .text.HAL_SAI_IRQHandler:00000000 $t
+     /tmp/ccigjPNl.s:4202   .text.HAL_SAI_IRQHandler:00000000 HAL_SAI_IRQHandler
+     /tmp/ccigjPNl.s:4598   .text.HAL_SAI_IRQHandler:0000019c $d
+     /tmp/ccigjPNl.s:4608   .text.SAI_DMAAbort:00000000 SAI_DMAAbort
+     /tmp/ccigjPNl.s:4603   .text.SAI_DMAAbort:00000000 $t
+     /tmp/ccigjPNl.s:4685   .text.HAL_SAI_GetState:00000000 $t
+     /tmp/ccigjPNl.s:4691   .text.HAL_SAI_GetState:00000000 HAL_SAI_GetState
+     /tmp/ccigjPNl.s:4709   .text.HAL_SAI_GetError:00000000 $t
+     /tmp/ccigjPNl.s:4715   .text.HAL_SAI_GetError:00000000 HAL_SAI_GetError
 
 UNDEFINED SYMBOLS
 SystemCoreClock

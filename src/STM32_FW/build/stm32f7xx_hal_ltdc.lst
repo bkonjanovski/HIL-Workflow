@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccXHsu4I.s 			page 1
+ARM GAS  /tmp/ccOzxNW5.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
   28:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****      [..]
   29:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****      The LTDC HAL driver can be used as follows:
   30:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 2
+ARM GAS  /tmp/ccOzxNW5.s 			page 2
 
 
   31:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****      (#) Declare a LTDC_HandleTypeDef handle structure, for example: LTDC_HandleTypeDef  hltdc;
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
   85:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****      [..]
   86:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****        Below the list of most used macros in LTDC HAL driver.
   87:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 3
+ARM GAS  /tmp/ccOzxNW5.s 			page 3
 
 
   88:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****       (+) __HAL_LTDC_ENABLE: Enable the LTDC.
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  142:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****     keep and use the user MspInit/MspDeInit callbacks (registered beforehand).
  143:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  144:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****     [..]
-ARM GAS  /tmp/ccXHsu4I.s 			page 4
+ARM GAS  /tmp/ccOzxNW5.s 			page 4
 
 
  145:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****     Callbacks can be registered/unregistered in HAL_LTDC_STATE_READY state only.
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  199:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****     [..]  This section provides functions allowing to:
  200:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****       (+) Initialize and configure the LTDC
  201:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****       (+) De-initialize the LTDC
-ARM GAS  /tmp/ccXHsu4I.s 			page 5
+ARM GAS  /tmp/ccOzxNW5.s 			page 5
 
 
  202:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  256:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   }
  257:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** #else
  258:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   if (hltdc->State == HAL_LTDC_STATE_RESET)
-ARM GAS  /tmp/ccXHsu4I.s 			page 6
+ARM GAS  /tmp/ccOzxNW5.s 			page 6
 
 
  259:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   {
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  313:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   return HAL_OK;
  314:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** }
  315:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 7
+ARM GAS  /tmp/ccOzxNW5.s 			page 7
 
 
  316:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** /**
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  370:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** #else
  371:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* DeInit the low level hardware */
  372:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   HAL_LTDC_MspDeInit(hltdc);
-ARM GAS  /tmp/ccXHsu4I.s 			page 8
+ARM GAS  /tmp/ccOzxNW5.s 			page 8
 
 
  373:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** #endif /* USE_HAL_LTDC_REGISTER_CALLBACKS */
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  427:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   *          @arg @ref HAL_LTDC_RELOAD_EVENT_CB_ID Reload Event Callback ID
  428:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   *          @arg @ref HAL_LTDC_ERROR_CB_ID Error Callback ID
  429:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   *          @arg @ref HAL_LTDC_MSPINIT_CB_ID MspInit callback ID
-ARM GAS  /tmp/ccXHsu4I.s 			page 9
+ARM GAS  /tmp/ccOzxNW5.s 			page 9
 
 
  430:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   *          @arg @ref HAL_LTDC_MSPDEINIT_CB_ID MspDeInit callback ID
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  484:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****     {
  485:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****       case HAL_LTDC_MSPINIT_CB_ID :
  486:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****         hltdc->MspInitCallback = pCallback;
-ARM GAS  /tmp/ccXHsu4I.s 			page 10
+ARM GAS  /tmp/ccOzxNW5.s 			page 10
 
 
  487:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****         break;
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  541:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****         break;
  542:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  543:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****       case HAL_LTDC_RELOAD_EVENT_CB_ID :
-ARM GAS  /tmp/ccXHsu4I.s 			page 11
+ARM GAS  /tmp/ccOzxNW5.s 			page 11
 
 
  544:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****         hltdc->ReloadEventCallback = HAL_LTDC_ReloadEventCallback;  /* Legacy weak ReloadEventCallb
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  598:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   return status;
  599:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** }
  600:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** #endif /* USE_HAL_LTDC_REGISTER_CALLBACKS */
-ARM GAS  /tmp/ccXHsu4I.s 			page 12
+ARM GAS  /tmp/ccOzxNW5.s 			page 12
 
 
  601:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  655:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** #endif /* USE_HAL_LTDC_REGISTER_CALLBACKS */
  656:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   }
  657:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 13
+ARM GAS  /tmp/ccOzxNW5.s 			page 13
 
 
  658:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* FIFO underrun Interrupt management ***************************************/
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  712:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   if (((isrflags & LTDC_ISR_RRIF) != 0U) && ((itsources & LTDC_IER_RRIE) != 0U))
  713:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   {
  714:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****     /* Disable the register reload interrupt */
-ARM GAS  /tmp/ccXHsu4I.s 			page 14
+ARM GAS  /tmp/ccOzxNW5.s 			page 14
 
 
  715:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****     __HAL_LTDC_DISABLE_IT(hltdc, LTDC_IT_RR);
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  769:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** /**
  770:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   * @brief  Reload Event callback.
  771:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   * @param  hltdc  pointer to a LTDC_HandleTypeDef structure that contains
-ARM GAS  /tmp/ccXHsu4I.s 			page 15
+ARM GAS  /tmp/ccOzxNW5.s 			page 15
 
 
  772:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   *                the configuration information for the LTDC.
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  826:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** {
  827:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* Check the parameters */
  828:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   assert_param(IS_LTDC_LAYER(LayerIdx));
-ARM GAS  /tmp/ccXHsu4I.s 			page 16
+ARM GAS  /tmp/ccOzxNW5.s 			page 16
 
 
  829:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   assert_param(IS_LTDC_HCONFIGST(pLayerCfg->WindowX0));
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  883:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* Change LTDC peripheral state */
  884:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   hltdc->State = HAL_LTDC_STATE_BUSY;
  885:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 17
+ARM GAS  /tmp/ccOzxNW5.s 			page 17
 
 
  886:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* Configure the default color values */
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  940:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****     pcolorlut++;
  941:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  942:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****     /* Specifies the C-LUT address and RGB value */
-ARM GAS  /tmp/ccXHsu4I.s 			page 18
+ARM GAS  /tmp/ccOzxNW5.s 			page 18
 
 
  943:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****     LTDC_LAYER(hltdc, LayerIdx)->CLUTWR  = tmp;
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  997:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   * @retval  HAL status
  998:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   */
  999:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** HAL_StatusTypeDef HAL_LTDC_DisableColorKeying(LTDC_HandleTypeDef *hltdc, uint32_t LayerIdx)
-ARM GAS  /tmp/ccXHsu4I.s 			page 19
+ARM GAS  /tmp/ccOzxNW5.s 			page 19
 
 
 1000:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** {
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 1054:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* Process unlocked */
 1055:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   __HAL_UNLOCK(hltdc);
 1056:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 20
+ARM GAS  /tmp/ccOzxNW5.s 			page 20
 
 
 1057:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   return HAL_OK;
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 1111:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   LTDC->GCR |= (uint32_t)LTDC_GCR_DEN;
 1112:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
 1113:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* Change the LTDC state*/
-ARM GAS  /tmp/ccXHsu4I.s 			page 21
+ARM GAS  /tmp/ccOzxNW5.s 			page 21
 
 
 1114:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   hltdc->State = HAL_LTDC_STATE_READY;
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 1168:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
 1169:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* Process locked */
 1170:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   __HAL_LOCK(hltdc);
-ARM GAS  /tmp/ccXHsu4I.s 			page 22
+ARM GAS  /tmp/ccOzxNW5.s 			page 22
 
 
 1171:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 1225:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* Process locked */
 1226:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   __HAL_LOCK(hltdc);
 1227:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 23
+ARM GAS  /tmp/ccOzxNW5.s 			page 23
 
 
 1228:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* Change LTDC peripheral state */
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 1282:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   pLayerCfg = &hltdc->LayerCfg[LayerIdx];
 1283:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
 1284:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* Reconfigure the pixel format */
-ARM GAS  /tmp/ccXHsu4I.s 			page 24
+ARM GAS  /tmp/ccOzxNW5.s 			page 24
 
 
 1285:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   pLayerCfg->PixelFormat = Pixelformat;
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 1339:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   hltdc->State = HAL_LTDC_STATE_READY;
 1340:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
 1341:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* Process unlocked */
-ARM GAS  /tmp/ccXHsu4I.s 			page 25
+ARM GAS  /tmp/ccOzxNW5.s 			page 25
 
 
 1342:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   __HAL_UNLOCK(hltdc);
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 1396:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   *         call to HAL_LTDC_ConfigLayer().
 1397:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   * @note   This function should be called only after a previous call to HAL_LTDC_ConfigLayer() to 
 1398:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   *         pitch configured by HAL_LTDC_ConfigLayer() when required (refer to example described ju
-ARM GAS  /tmp/ccXHsu4I.s 			page 26
+ARM GAS  /tmp/ccOzxNW5.s 			page 26
 
 
 1399:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   * @param  hltdc              pointer to a LTDC_HandleTypeDef structure that contains
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 1453:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
 1454:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* Set the Reload type as immediate update of LTDC pitch configured above */
 1455:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   LTDC->SRCR |= LTDC_SRCR_IMR;
-ARM GAS  /tmp/ccXHsu4I.s 			page 27
+ARM GAS  /tmp/ccOzxNW5.s 			page 27
 
 
 1456:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 1510:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   * @note   User application may resort to HAL_LTDC_ReloadEventCallback() at reload interrupt gener
 1511:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   * @retval  HAL status
 1512:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   */
-ARM GAS  /tmp/ccXHsu4I.s 			page 28
+ARM GAS  /tmp/ccOzxNW5.s 			page 28
 
 
 1513:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** HAL_StatusTypeDef  HAL_LTDC_Reload(LTDC_HandleTypeDef *hltdc, uint32_t ReloadType)
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 1567:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   assert_param(IS_LTDC_CFBLNBR(pLayerCfg->ImageHeight));
 1568:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
 1569:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* Process locked */
-ARM GAS  /tmp/ccXHsu4I.s 			page 29
+ARM GAS  /tmp/ccOzxNW5.s 			page 29
 
 
 1570:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   __HAL_LOCK(hltdc);
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 1624:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* update vertical stop */
 1625:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   pLayerCfg->WindowY1 = YSize + pLayerCfg->WindowY0;
 1626:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 30
+ARM GAS  /tmp/ccOzxNW5.s 			page 30
 
 
 1627:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* Reconfigures the color frame buffer pitch in byte */
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 1681:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   pLayerCfg->WindowY0 = Y0;
 1682:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   pLayerCfg->WindowY1 = Y0 + pLayerCfg->ImageHeight;
 1683:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 31
+ARM GAS  /tmp/ccOzxNW5.s 			page 31
 
 
 1684:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* Set LTDC parameters */
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 1738:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
 1739:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** /**
 1740:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   * @brief  Reconfigure the layer alpha value without reloading.
-ARM GAS  /tmp/ccXHsu4I.s 			page 32
+ARM GAS  /tmp/ccOzxNW5.s 			page 32
 
 
 1741:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   *         Variant of the function HAL_LTDC_SetAlpha without immediate reload.
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 1795:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   LTDC_LayerCfgTypeDef *pLayerCfg;
 1796:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
 1797:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* Check the parameters */
-ARM GAS  /tmp/ccXHsu4I.s 			page 33
+ARM GAS  /tmp/ccOzxNW5.s 			page 33
 
 
 1798:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   assert_param(IS_LTDC_LAYER(LayerIdx));
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 1852:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* Change LTDC peripheral state */
 1853:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   hltdc->State = HAL_LTDC_STATE_BUSY;
 1854:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 34
+ARM GAS  /tmp/ccOzxNW5.s 			page 34
 
 
 1855:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* get LayerIdx used pixel format */
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 1909:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* Check the parameters */
 1910:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   assert_param(IS_LTDC_LAYER(LayerIdx));
 1911:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 35
+ARM GAS  /tmp/ccOzxNW5.s 			page 35
 
 
 1912:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* Process locked */
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 1966:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   *         Variant of the function HAL_LTDC_DisableColorKeying without immediate reload.
 1967:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   * @param  hltdc     pointer to a LTDC_HandleTypeDef structure that contains
 1968:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   *                   the configuration information for the LTDC.
-ARM GAS  /tmp/ccXHsu4I.s 			page 36
+ARM GAS  /tmp/ccOzxNW5.s 			page 36
 
 
 1969:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   * @param  LayerIdx  LTDC Layer index.
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 2023:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
 2024:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* Process unlocked */
 2025:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   __HAL_UNLOCK(hltdc);
-ARM GAS  /tmp/ccXHsu4I.s 			page 37
+ARM GAS  /tmp/ccOzxNW5.s 			page 37
 
 
 2026:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 2080:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   * @{
 2081:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   */
 2082:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 38
+ARM GAS  /tmp/ccOzxNW5.s 			page 38
 
 
 2083:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** /**
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
   38              		.cfi_offset 5, -12
   39              		.cfi_offset 6, -8
   40              		.cfi_offset 14, -4
-ARM GAS  /tmp/ccXHsu4I.s 			page 39
+ARM GAS  /tmp/ccOzxNW5.s 			page 39
 
 
 2128:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   uint32_t tmp;
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 2137:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
 2138:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* Configure the vertical start and stop position */
 2139:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   tmp = ((pLayerCfg->WindowY1 + (hltdc->Instance->BPCR & LTDC_BPCR_AVBP)) << 16U);
-ARM GAS  /tmp/ccXHsu4I.s 			page 40
+ARM GAS  /tmp/ccOzxNW5.s 			page 40
 
 
   83              		.loc 1 2139 3 is_stmt 1 view .LVU24
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  131 0084 0368     		ldr	r3, [r0]
  132 0086 03EBC213 		add	r3, r3, r2, lsl #7
  133              		.loc 1 2145 49 is_stmt 0 view .LVU47
-ARM GAS  /tmp/ccXHsu4I.s 			page 41
+ARM GAS  /tmp/ccOzxNW5.s 			page 41
 
 
  134 008a 0C69     		ldr	r4, [r1, #16]
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  177 00c8 0368     		ldr	r3, [r0]
  178              		.loc 1 2156 30 is_stmt 0 view .LVU68
  179 00ca 03EBC213 		add	r3, r3, r2, lsl #7
-ARM GAS  /tmp/ccXHsu4I.s 			page 42
+ARM GAS  /tmp/ccOzxNW5.s 			page 42
 
 
  180 00ce D3F89850 		ldr	r5, [r3, #152]
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  225              		.loc 1 2165 38 view .LVU86
  226 011e C3F8AC20 		str	r2, [r3, #172]
 2166:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 43
+ARM GAS  /tmp/ccOzxNW5.s 			page 43
 
 
 2167:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   if (pLayerCfg->PixelFormat == LTDC_PIXEL_FORMAT_ARGB8888)
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 2182:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   else
 2183:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   {
 2184:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****     tmp = 1U;
-ARM GAS  /tmp/ccXHsu4I.s 			page 44
+ARM GAS  /tmp/ccOzxNW5.s 			page 44
 
 
 2185:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   }
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  306              		.loc 1 2193 52 is_stmt 0 view .LVU111
  307 018c CA6A     		ldr	r2, [r1, #44]
  308              		.loc 1 2193 40 view .LVU112
-ARM GAS  /tmp/ccXHsu4I.s 			page 45
+ARM GAS  /tmp/ccOzxNW5.s 			page 45
 
 
  309 018e C3F8B420 		str	r2, [r3, #180]
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  358              		.thumb
  359              		.thumb_func
  361              	HAL_LTDC_Init:
-ARM GAS  /tmp/ccXHsu4I.s 			page 46
+ARM GAS  /tmp/ccOzxNW5.s 			page 46
 
 
  362              	.LVL14:
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  396              		.loc 1 258 3 view .LVU140
  258:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   {
  397              		.loc 1 258 12 is_stmt 0 view .LVU141
-ARM GAS  /tmp/ccXHsu4I.s 			page 47
+ARM GAS  /tmp/ccOzxNW5.s 			page 47
 
 
  398 0008 90F8A130 		ldrb	r3, [r0, #161]	@ zero_extendqisi2
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  272:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****                                      hltdc->Init.DEPolarity | hltdc->Init.PCPolarity);
  435              		.loc 1 272 24 view .LVU159
  436 0032 1343     		orrs	r3, r3, r2
-ARM GAS  /tmp/ccXHsu4I.s 			page 48
+ARM GAS  /tmp/ccOzxNW5.s 			page 48
 
 
  437 0034 8B61     		str	r3, [r1, #24]
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  283:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  474              		.loc 1 283 8 is_stmt 0 view .LVU177
  475 0058 2068     		ldr	r0, [r4]
-ARM GAS  /tmp/ccXHsu4I.s 			page 49
+ARM GAS  /tmp/ccOzxNW5.s 			page 49
 
 
  283:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  513 0080 2168     		ldr	r1, [r4]
  291:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   tmp = (hltdc->Init.TotalWidth << 16U);
  514              		.loc 1 291 18 view .LVU195
-ARM GAS  /tmp/ccXHsu4I.s 			page 50
+ARM GAS  /tmp/ccOzxNW5.s 			page 50
 
 
  515 0082 4A69     		ldr	r2, [r1, #20]
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  551 00a6 02F07F42 		and	r2, r2, #-16777216
  552 00aa CA62     		str	r2, [r1, #44]
  299:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 51
+ARM GAS  /tmp/ccOzxNW5.s 			page 51
 
 
  553              		.loc 1 299 3 is_stmt 1 view .LVU214
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  592              		.loc 1 261 5 is_stmt 1 view .LVU229
  261:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****     /* Init the low level hardware */
  593              		.loc 1 261 17 is_stmt 0 view .LVU230
-ARM GAS  /tmp/ccXHsu4I.s 			page 52
+ARM GAS  /tmp/ccOzxNW5.s 			page 52
 
 
  594 00e0 80F8A030 		strb	r3, [r0, #160]
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  644              		.syntax unified
  645              		.thumb
  646              		.thumb_func
-ARM GAS  /tmp/ccXHsu4I.s 			page 53
+ARM GAS  /tmp/ccOzxNW5.s 			page 53
 
 
  648              	HAL_LTDC_DeInit:
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  690              	.LVL34:
  351:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   {
  691              		.loc 1 351 3 is_stmt 1 view .LVU250
-ARM GAS  /tmp/ccXHsu4I.s 			page 54
+ARM GAS  /tmp/ccOzxNW5.s 			page 54
 
 
  692              	.L28:
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  384:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** }
  730              		.loc 1 384 3 view .LVU267
  385:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 55
+ARM GAS  /tmp/ccOzxNW5.s 			page 55
 
 
  731              		.loc 1 385 1 is_stmt 0 view .LVU268
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  783              		@ frame_needed = 0, uses_anonymous_args = 0
  784              		@ link register save eliminated.
  762:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 56
+ARM GAS  /tmp/ccOzxNW5.s 			page 56
 
 
  785              		.loc 1 762 3 view .LVU275
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  627:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   uint32_t itsources = READ_REG(hltdc->Instance->IER);
  836              		.loc 1 627 24 is_stmt 0 view .LVU283
  837 0004 0368     		ldr	r3, [r0]
-ARM GAS  /tmp/ccXHsu4I.s 			page 57
+ARM GAS  /tmp/ccOzxNW5.s 			page 57
 
 
  627:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   uint32_t itsources = READ_REG(hltdc->Instance->IER);
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  877              	.L39:
  735:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  878              		.loc 1 735 1 view .LVU299
-ARM GAS  /tmp/ccXHsu4I.s 			page 58
+ARM GAS  /tmp/ccOzxNW5.s 			page 58
 
 
  879 003a 70BD     		pop	{r4, r5, r6, pc}
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  668:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  919              		.loc 1 668 5 view .LVU314
  668:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 59
+ARM GAS  /tmp/ccOzxNW5.s 			page 59
 
 
  920              		.loc 1 668 10 is_stmt 0 view .LVU315
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  959 00b0 FFF7FEFF 		bl	HAL_LTDC_LineEventCallback
  960              	.LVL49:
  961 00b4 BBE7     		b	.L42
-ARM GAS  /tmp/ccXHsu4I.s 			page 60
+ARM GAS  /tmp/ccOzxNW5.s 			page 60
 
 
  962              	.L48:
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  1007              		.cfi_def_cfa_offset 24
  1008              		.cfi_offset 3, -24
  1009              		.cfi_offset 4, -20
-ARM GAS  /tmp/ccXHsu4I.s 			page 61
+ARM GAS  /tmp/ccOzxNW5.s 			page 61
 
 
  1010              		.cfi_offset 5, -16
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  1044 001c 4FF0340C 		mov	ip, #52
  1045 0020 0CFB020C 		mla	ip, ip, r2, r0
  1046 0024 0CF1380C 		add	ip, ip, #56
-ARM GAS  /tmp/ccXHsu4I.s 			page 62
+ARM GAS  /tmp/ccOzxNW5.s 			page 62
 
 
  1047 0028 8E46     		mov	lr, r1
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  1087              		.loc 1 842 3 view .LVU375
  1088 0066 FCE7     		b	.L50
  1089              		.cfi_endproc
-ARM GAS  /tmp/ccXHsu4I.s 			page 63
+ARM GAS  /tmp/ccOzxNW5.s 			page 63
 
 
  1090              	.LFE149:
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  1133              		.loc 1 887 30 is_stmt 0 discriminator 2 view .LVU388
  1134 001a 00EBC210 		add	r0, r0, r2, lsl #7
  1135 001e D0F89050 		ldr	r5, [r0, #144]
-ARM GAS  /tmp/ccXHsu4I.s 			page 64
+ARM GAS  /tmp/ccOzxNW5.s 			page 64
 
 
  887:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   LTDC_LAYER(hltdc, LayerIdx)->CKCR  = RGBValue;
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  1176              		.align	1
  1177              		.global	HAL_LTDC_ConfigCLUT
  1178              		.syntax unified
-ARM GAS  /tmp/ccXHsu4I.s 			page 65
+ARM GAS  /tmp/ccOzxNW5.s 			page 65
 
 
  1179              		.thumb
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  1219              		.loc 1 927 16 is_stmt 0 discriminator 2 view .LVU418
  1220 0018 4FF0000E 		mov	lr, #0
  927:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   {
-ARM GAS  /tmp/ccXHsu4I.s 			page 66
+ARM GAS  /tmp/ccOzxNW5.s 			page 66
 
 
  1221              		.loc 1 927 3 discriminator 2 view .LVU419
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  1259              		.loc 1 929 34 is_stmt 0 view .LVU435
  1260 0048 3420     		movs	r0, #52
  1261 004a 00FB0350 		mla	r0, r0, r3, r5
-ARM GAS  /tmp/ccXHsu4I.s 			page 67
+ARM GAS  /tmp/ccOzxNW5.s 			page 67
 
 
  1262 004e 806C     		ldr	r0, [r0, #72]
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  952:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** }
  1299              		.loc 1 952 3 view .LVU453
  1300              	.LVL72:
-ARM GAS  /tmp/ccXHsu4I.s 			page 68
+ARM GAS  /tmp/ccOzxNW5.s 			page 68
 
 
  1301              	.L61:
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  1345              	.LVL75:
  976:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  1346              		.loc 1 976 30 discriminator 2 view .LVU466
-ARM GAS  /tmp/ccXHsu4I.s 			page 69
+ARM GAS  /tmp/ccOzxNW5.s 			page 69
 
 
  1347 001a D1F88430 		ldr	r3, [r1, #132]
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  1389              	.LFB153:
 1000:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* Check the parameters */
  1390              		.loc 1 1000 1 is_stmt 1 view -0
-ARM GAS  /tmp/ccXHsu4I.s 			page 70
+ARM GAS  /tmp/ccOzxNW5.s 			page 70
 
 
  1391              		.cfi_startproc
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 1020:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  1428              		.loc 1 1020 3 discriminator 2 view .LVU499
  1429 002e 0023     		movs	r3, #0
-ARM GAS  /tmp/ccXHsu4I.s 			page 71
+ARM GAS  /tmp/ccOzxNW5.s 			page 71
 
 
  1430 0030 80F8A030 		strb	r3, [r0, #160]
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  1473              		.loc 1 1043 3 discriminator 2 view .LVU512
 1043:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  1474              		.loc 1 1043 16 is_stmt 0 discriminator 2 view .LVU513
-ARM GAS  /tmp/ccXHsu4I.s 			page 72
+ARM GAS  /tmp/ccOzxNW5.s 			page 72
 
 
  1475 000e 0223     		movs	r3, #2
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  1512 003a 7047     		bx	lr
  1513              		.cfi_endproc
  1514              	.LFE154:
-ARM GAS  /tmp/ccXHsu4I.s 			page 73
+ARM GAS  /tmp/ccOzxNW5.s 			page 73
 
 
  1516              		.section	.text.HAL_LTDC_DisableCLUT,"ax",%progbits
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  1557 0026 0368     		ldr	r3, [r0]
 1084:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  1558              		.loc 1 1084 25 discriminator 2 view .LVU545
-ARM GAS  /tmp/ccXHsu4I.s 			page 74
+ARM GAS  /tmp/ccOzxNW5.s 			page 74
 
 
  1559 0028 5A62     		str	r2, [r3, #36]
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  1602 0004 012B     		cmp	r3, #1
  1603 0006 11D0     		beq	.L83
 1105:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 75
+ARM GAS  /tmp/ccOzxNW5.s 			page 75
 
 
  1604              		.loc 1 1105 3 discriminator 2 view .LVU559
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  1642              	.L84:
  1643 0030 00680140 		.word	1073833984
  1644              		.cfi_endproc
-ARM GAS  /tmp/ccXHsu4I.s 			page 76
+ARM GAS  /tmp/ccOzxNW5.s 			page 76
 
 
  1645              	.LFE156:
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  1687 0022 0023     		movs	r3, #0
  1688 0024 80F8A030 		strb	r3, [r0, #160]
 1144:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 77
+ARM GAS  /tmp/ccOzxNW5.s 			page 77
 
 
  1689              		.loc 1 1144 3 discriminator 2 view .LVU590
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  1736              		.loc 1 1165 3 view .LVU599
 1166:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   assert_param(IS_LTDC_CFBLNBR(YSize));
  1737              		.loc 1 1166 3 view .LVU600
-ARM GAS  /tmp/ccXHsu4I.s 			page 78
+ARM GAS  /tmp/ccOzxNW5.s 			page 78
 
 
 1167:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  1774              		.loc 1 1182 31 discriminator 2 view .LVU618
  1775 0030 2B44     		add	r3, r3, r5
 1182:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 79
+ARM GAS  /tmp/ccOzxNW5.s 			page 79
 
 
  1776              		.loc 1 1182 23 discriminator 2 view .LVU619
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 1170:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  1813              		.loc 1 1170 3 view .LVU637
  1814 0052 0220     		movs	r0, #2
-ARM GAS  /tmp/ccXHsu4I.s 			page 80
+ARM GAS  /tmp/ccOzxNW5.s 			page 80
 
 
  1815              	.LVL112:
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  1860 0012 80F8A050 		strb	r5, [r0, #160]
 1226:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  1861              		.loc 1 1226 3 discriminator 2 view .LVU649
-ARM GAS  /tmp/ccXHsu4I.s 			page 81
+ARM GAS  /tmp/ccOzxNW5.s 			page 81
 
 
 1229:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 1243:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  1898              		.loc 1 1243 3 is_stmt 0 discriminator 2 view .LVU668
  1899 003c 2046     		mov	r0, r4
-ARM GAS  /tmp/ccXHsu4I.s 			page 82
+ARM GAS  /tmp/ccOzxNW5.s 			page 82
 
 
  1900              	.LVL119:
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  1942              		.loc 1 1268 1 is_stmt 1 view -0
  1943              		.cfi_startproc
  1944              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccXHsu4I.s 			page 83
+ARM GAS  /tmp/ccOzxNW5.s 			page 83
 
 
  1945              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 1288:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  1984              		.loc 1 1288 3 is_stmt 0 discriminator 2 view .LVU698
  1985 0028 2046     		mov	r0, r4
-ARM GAS  /tmp/ccXHsu4I.s 			page 84
+ARM GAS  /tmp/ccOzxNW5.s 			page 84
 
 
  1986 002a FFF7FEFF 		bl	LTDC_SetConfig
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  2029              		@ frame_needed = 0, uses_anonymous_args = 0
 1313:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   LTDC_LayerCfgTypeDef *pLayerCfg;
  2030              		.loc 1 1313 1 is_stmt 0 view .LVU712
-ARM GAS  /tmp/ccXHsu4I.s 			page 85
+ARM GAS  /tmp/ccOzxNW5.s 			page 85
 
 
  2031 0000 38B5     		push	{r3, r4, r5, lr}
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  2070 002a FFF7FEFF 		bl	LTDC_SetConfig
  2071              	.LVL134:
 1336:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 86
+ARM GAS  /tmp/ccOzxNW5.s 			page 86
 
 
  2072              		.loc 1 1336 3 is_stmt 1 discriminator 2 view .LVU728
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  2115 0000 38B5     		push	{r3, r4, r5, lr}
  2116              	.LCFI14:
  2117              		.cfi_def_cfa_offset 16
-ARM GAS  /tmp/ccXHsu4I.s 			page 87
+ARM GAS  /tmp/ccOzxNW5.s 			page 87
 
 
  2118              		.cfi_offset 3, -16
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  2156              		.loc 1 1379 8 is_stmt 0 discriminator 2 view .LVU757
  2157 002e 2368     		ldr	r3, [r4]
 1379:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 88
+ARM GAS  /tmp/ccOzxNW5.s 			page 88
 
 
  2158              		.loc 1 1379 25 discriminator 2 view .LVU758
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  2201              		.loc 1 1408 3 view .LVU771
 1409:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  2202              		.loc 1 1409 3 view .LVU772
-ARM GAS  /tmp/ccXHsu4I.s 			page 89
+ARM GAS  /tmp/ccOzxNW5.s 			page 89
 
 
 1412:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  2242 002d 07       		.byte	(.L117-.L116)/2
  2243 002e 0A       		.byte	(.L115-.L116)/2
  2244 002f 07       		.byte	(.L117-.L116)/2
-ARM GAS  /tmp/ccXHsu4I.s 			page 90
+ARM GAS  /tmp/ccOzxNW5.s 			page 90
 
 
  2245 0030 04       		.byte	(.L114-.L116)/2
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 1452:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  2288              		.loc 1 1452 3 is_stmt 1 view .LVU799
  2289 006a 1868     		ldr	r0, [r3]
-ARM GAS  /tmp/ccXHsu4I.s 			page 91
+ARM GAS  /tmp/ccOzxNW5.s 			page 91
 
 
 1452:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  2330              	.LCFI18:
  2331              		.cfi_def_cfa_offset 0
  2332              		.cfi_restore 4
-ARM GAS  /tmp/ccXHsu4I.s 			page 92
+ARM GAS  /tmp/ccOzxNW5.s 			page 92
 
 
 1415:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  2378              		.loc 1 1483 3 discriminator 2 view .LVU824
 1483:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  2379              		.loc 1 1483 16 is_stmt 0 discriminator 2 view .LVU825
-ARM GAS  /tmp/ccXHsu4I.s 			page 93
+ARM GAS  /tmp/ccOzxNW5.s 			page 93
 
 
  2380 0012 0222     		movs	r2, #2
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  2420              	.LVL163:
 1501:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  2421              		.loc 1 1501 1 view .LVU840
-ARM GAS  /tmp/ccXHsu4I.s 			page 94
+ARM GAS  /tmp/ccOzxNW5.s 			page 94
 
 
  2422 0040 7047     		bx	lr
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  2468 001e 6363     		str	r3, [r4, #52]
 1528:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  2469              		.loc 1 1528 3 discriminator 2 view .LVU851
-ARM GAS  /tmp/ccXHsu4I.s 			page 95
+ARM GAS  /tmp/ccOzxNW5.s 			page 95
 
 
 1528:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  2513              		.cfi_startproc
  2514              		@ args = 0, pretend = 0, frame = 0
  2515              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccXHsu4I.s 			page 96
+ARM GAS  /tmp/ccOzxNW5.s 			page 96
 
 
 1554:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* Check the parameters */
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  2551              		.loc 1 1573 16 is_stmt 0 discriminator 2 view .LVU883
  2552 0016 0223     		movs	r3, #2
  2553 0018 80F8A130 		strb	r3, [r0, #161]
-ARM GAS  /tmp/ccXHsu4I.s 			page 97
+ARM GAS  /tmp/ccOzxNW5.s 			page 97
 
 
 1576:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  2595 0062 FCE7     		b	.L144
  2596              		.cfi_endproc
  2597              	.LFE166:
-ARM GAS  /tmp/ccXHsu4I.s 			page 98
+ARM GAS  /tmp/ccOzxNW5.s 			page 98
 
 
  2599              		.section	.text.HAL_LTDC_SetWindowSize_NoReload,"ax",%progbits
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  2641              		.loc 1 1616 16 is_stmt 0 discriminator 2 view .LVU909
  2642 0016 0223     		movs	r3, #2
  2643 0018 80F8A130 		strb	r3, [r0, #161]
-ARM GAS  /tmp/ccXHsu4I.s 			page 99
+ARM GAS  /tmp/ccOzxNW5.s 			page 99
 
 
 1619:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  2680 003e FFF7FEFF 		bl	LTDC_SetConfig
  2681              	.LVL181:
 1637:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 100
+ARM GAS  /tmp/ccOzxNW5.s 			page 100
 
 
  2682              		.loc 1 1637 3 is_stmt 1 discriminator 2 view .LVU928
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  2728 0004 1A46     		mov	r2, r3
  2729              	.LVL186:
 1660:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 101
+ARM GAS  /tmp/ccOzxNW5.s 			page 101
 
 
  2730              		.loc 1 1660 3 is_stmt 1 view .LVU939
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  2766 002c 0B44     		add	r3, r3, r1
 1678:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  2767              		.loc 1 1678 23 discriminator 2 view .LVU958
-ARM GAS  /tmp/ccXHsu4I.s 			page 102
+ARM GAS  /tmp/ccOzxNW5.s 			page 102
 
 
  2768 002e C363     		str	r3, [r0, #60]
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  2805              	.LVL195:
 1668:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  2806              		.loc 1 1668 3 view .LVU976
-ARM GAS  /tmp/ccXHsu4I.s 			page 103
+ARM GAS  /tmp/ccOzxNW5.s 			page 103
 
 
  2807 0050 FCE7     		b	.L152
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 1722:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  2851              		.loc 1 1722 13 is_stmt 0 discriminator 2 view .LVU989
  2852 0018 3423     		movs	r3, #52
-ARM GAS  /tmp/ccXHsu4I.s 			page 104
+ARM GAS  /tmp/ccOzxNW5.s 			page 104
 
 
  2853 001a 02FB03F3 		mul	r3, r2, r3
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  2895              		.thumb_func
  2897              	HAL_LTDC_SetAlpha_NoReload:
  2898              	.LVL203:
-ARM GAS  /tmp/ccXHsu4I.s 			page 105
+ARM GAS  /tmp/ccOzxNW5.s 			page 105
 
 
  2899              	.LFB170:
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  2938 0024 D964     		str	r1, [r3, #76]
 1771:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  2939              		.loc 1 1771 3 is_stmt 1 discriminator 2 view .LVU1018
-ARM GAS  /tmp/ccXHsu4I.s 			page 106
+ARM GAS  /tmp/ccOzxNW5.s 			page 106
 
 
  2940 0026 2118     		adds	r1, r4, r0
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  2984 0000 38B5     		push	{r3, r4, r5, lr}
  2985              	.LCFI28:
  2986              		.cfi_def_cfa_offset 16
-ARM GAS  /tmp/ccXHsu4I.s 			page 107
+ARM GAS  /tmp/ccOzxNW5.s 			page 107
 
 
  2987              		.cfi_offset 3, -16
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  3025              		.loc 1 1816 16 is_stmt 0 discriminator 2 view .LVU1046
  3026 002e 84F8A150 		strb	r5, [r4, #161]
 1819:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 108
+ARM GAS  /tmp/ccOzxNW5.s 			page 108
 
 
  3027              		.loc 1 1819 3 is_stmt 1 discriminator 2 view .LVU1047
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  3069              		.loc 1 1850 3 view .LVU1061
  3070 0002 90F8A000 		ldrb	r0, [r0, #160]	@ zero_extendqisi2
  3071              	.LVL218:
-ARM GAS  /tmp/ccXHsu4I.s 			page 109
+ARM GAS  /tmp/ccOzxNW5.s 			page 109
 
 
 1850:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 1858:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   {
  3114              		.loc 1 1858 6 view .LVU1074
  3115 0034 4FF0010C 		mov	ip, #1
-ARM GAS  /tmp/ccXHsu4I.s 			page 110
+ARM GAS  /tmp/ccOzxNW5.s 			page 110
 
 
  3116 0038 07E0     		b	.L169
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  3157 0072 0122     		movs	r2, #1
  3158 0074 83F8A120 		strb	r2, [r3, #161]
 1890:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 111
+ARM GAS  /tmp/ccOzxNW5.s 			page 111
 
 
  3159              		.loc 1 1890 3 is_stmt 1 view .LVU1088
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  3207              		@ args = 0, pretend = 0, frame = 0
  3208              		@ frame_needed = 0, uses_anonymous_args = 0
  3209              		@ link register save eliminated.
-ARM GAS  /tmp/ccXHsu4I.s 			page 112
+ARM GAS  /tmp/ccOzxNW5.s 			page 112
 
 
 1908:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* Check the parameters */
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  3247              		.loc 1 1923 16 is_stmt 0 discriminator 2 view .LVU1113
  3248 0036 83F8A1C0 		strb	ip, [r3, #161]
 1926:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 113
+ARM GAS  /tmp/ccOzxNW5.s 			page 113
 
 
  3249              		.loc 1 1926 3 is_stmt 1 discriminator 2 view .LVU1114
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  3293              		.loc 1 1947 3 discriminator 2 view .LVU1126
 1950:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  3294              		.loc 1 1950 3 discriminator 2 view .LVU1127
-ARM GAS  /tmp/ccXHsu4I.s 			page 114
+ARM GAS  /tmp/ccOzxNW5.s 			page 114
 
 
 1950:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  3335              		.syntax unified
  3336              		.thumb
  3337              		.thumb_func
-ARM GAS  /tmp/ccXHsu4I.s 			page 115
+ARM GAS  /tmp/ccOzxNW5.s 			page 115
 
 
  3339              	HAL_LTDC_DisableColorKeying_NoReload:
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  3377 002c 80F8A030 		strb	r3, [r0, #160]
 1992:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
  3378              		.loc 1 1992 3 discriminator 2 view .LVU1159
-ARM GAS  /tmp/ccXHsu4I.s 			page 116
+ARM GAS  /tmp/ccOzxNW5.s 			page 116
 
 
 1994:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** }
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  3422 000e 0223     		movs	r3, #2
  3423 0010 80F8A130 		strb	r3, [r0, #161]
 2019:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** 
-ARM GAS  /tmp/ccXHsu4I.s 			page 117
+ARM GAS  /tmp/ccOzxNW5.s 			page 117
 
 
  3424              		.loc 1 2019 3 is_stmt 1 discriminator 2 view .LVU1173
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  3467              	.LFB177:
 2041:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c ****   /* Check the parameters */
  3468              		.loc 1 2041 1 is_stmt 1 view -0
-ARM GAS  /tmp/ccXHsu4I.s 			page 118
+ARM GAS  /tmp/ccOzxNW5.s 			page 118
 
 
  3469              		.cfi_startproc
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
 2060:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** }
  3506              		.loc 1 2060 10 is_stmt 0 discriminator 2 view .LVU1205
  3507 0030 1846     		mov	r0, r3
-ARM GAS  /tmp/ccXHsu4I.s 			page 119
+ARM GAS  /tmp/ccOzxNW5.s 			page 119
 
 
  3508              	.LVL248:
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  3558              		@ frame_needed = 0, uses_anonymous_args = 0
  3559              		@ link register save eliminated.
 2102:Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_ltdc.c **** }
-ARM GAS  /tmp/ccXHsu4I.s 			page 120
+ARM GAS  /tmp/ccOzxNW5.s 			page 120
 
 
  3560              		.loc 1 2102 3 view .LVU1214
@@ -7158,110 +7158,110 @@ ARM GAS  /tmp/ccXHsu4I.s 			page 1
  3573              		.file 4 "Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_def.h"
  3574              		.file 5 "Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_ltdc.h"
  3575              		.file 6 "Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h"
-ARM GAS  /tmp/ccXHsu4I.s 			page 121
+ARM GAS  /tmp/ccOzxNW5.s 			page 121
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f7xx_hal_ltdc.c
-     /tmp/ccXHsu4I.s:21     .text.LTDC_SetConfig:00000000 $t
-     /tmp/ccXHsu4I.s:26     .text.LTDC_SetConfig:00000000 LTDC_SetConfig
-     /tmp/ccXHsu4I.s:238    .text.LTDC_SetConfig:00000130 $d
-     /tmp/ccXHsu4I.s:328    .text.LTDC_SetConfig:000001a8 $d
-     /tmp/ccXHsu4I.s:334    .text.HAL_LTDC_MspInit:00000000 $t
-     /tmp/ccXHsu4I.s:340    .text.HAL_LTDC_MspInit:00000000 HAL_LTDC_MspInit
-     /tmp/ccXHsu4I.s:355    .text.HAL_LTDC_Init:00000000 $t
-     /tmp/ccXHsu4I.s:361    .text.HAL_LTDC_Init:00000000 HAL_LTDC_Init
-     /tmp/ccXHsu4I.s:616    .text.HAL_LTDC_Init:000000f0 $d
-     /tmp/ccXHsu4I.s:621    .text.HAL_LTDC_MspDeInit:00000000 $t
-     /tmp/ccXHsu4I.s:627    .text.HAL_LTDC_MspDeInit:00000000 HAL_LTDC_MspDeInit
-     /tmp/ccXHsu4I.s:642    .text.HAL_LTDC_DeInit:00000000 $t
-     /tmp/ccXHsu4I.s:648    .text.HAL_LTDC_DeInit:00000000 HAL_LTDC_DeInit
-     /tmp/ccXHsu4I.s:750    .text.HAL_LTDC_ErrorCallback:00000000 $t
-     /tmp/ccXHsu4I.s:756    .text.HAL_LTDC_ErrorCallback:00000000 HAL_LTDC_ErrorCallback
-     /tmp/ccXHsu4I.s:771    .text.HAL_LTDC_LineEventCallback:00000000 $t
-     /tmp/ccXHsu4I.s:777    .text.HAL_LTDC_LineEventCallback:00000000 HAL_LTDC_LineEventCallback
-     /tmp/ccXHsu4I.s:792    .text.HAL_LTDC_ReloadEventCallback:00000000 $t
-     /tmp/ccXHsu4I.s:798    .text.HAL_LTDC_ReloadEventCallback:00000000 HAL_LTDC_ReloadEventCallback
-     /tmp/ccXHsu4I.s:813    .text.HAL_LTDC_IRQHandler:00000000 $t
-     /tmp/ccXHsu4I.s:819    .text.HAL_LTDC_IRQHandler:00000000 HAL_LTDC_IRQHandler
-     /tmp/ccXHsu4I.s:991    .text.HAL_LTDC_ConfigLayer:00000000 $t
-     /tmp/ccXHsu4I.s:997    .text.HAL_LTDC_ConfigLayer:00000000 HAL_LTDC_ConfigLayer
-     /tmp/ccXHsu4I.s:1093   .text.HAL_LTDC_ConfigColorKeying:00000000 $t
-     /tmp/ccXHsu4I.s:1099   .text.HAL_LTDC_ConfigColorKeying:00000000 HAL_LTDC_ConfigColorKeying
-     /tmp/ccXHsu4I.s:1176   .text.HAL_LTDC_ConfigCLUT:00000000 $t
-     /tmp/ccXHsu4I.s:1182   .text.HAL_LTDC_ConfigCLUT:00000000 HAL_LTDC_ConfigCLUT
-     /tmp/ccXHsu4I.s:1313   .text.HAL_LTDC_EnableColorKeying:00000000 $t
-     /tmp/ccXHsu4I.s:1319   .text.HAL_LTDC_EnableColorKeying:00000000 HAL_LTDC_EnableColorKeying
-     /tmp/ccXHsu4I.s:1381   .text.HAL_LTDC_DisableColorKeying:00000000 $t
-     /tmp/ccXHsu4I.s:1387   .text.HAL_LTDC_DisableColorKeying:00000000 HAL_LTDC_DisableColorKeying
-     /tmp/ccXHsu4I.s:1449   .text.HAL_LTDC_EnableCLUT:00000000 $t
-     /tmp/ccXHsu4I.s:1455   .text.HAL_LTDC_EnableCLUT:00000000 HAL_LTDC_EnableCLUT
-     /tmp/ccXHsu4I.s:1517   .text.HAL_LTDC_DisableCLUT:00000000 $t
-     /tmp/ccXHsu4I.s:1523   .text.HAL_LTDC_DisableCLUT:00000000 HAL_LTDC_DisableCLUT
-     /tmp/ccXHsu4I.s:1585   .text.HAL_LTDC_EnableDither:00000000 $t
-     /tmp/ccXHsu4I.s:1591   .text.HAL_LTDC_EnableDither:00000000 HAL_LTDC_EnableDither
-     /tmp/ccXHsu4I.s:1643   .text.HAL_LTDC_EnableDither:00000030 $d
-     /tmp/ccXHsu4I.s:1648   .text.HAL_LTDC_DisableDither:00000000 $t
-     /tmp/ccXHsu4I.s:1654   .text.HAL_LTDC_DisableDither:00000000 HAL_LTDC_DisableDither
-     /tmp/ccXHsu4I.s:1706   .text.HAL_LTDC_DisableDither:00000030 $d
-     /tmp/ccXHsu4I.s:1711   .text.HAL_LTDC_SetWindowSize:00000000 $t
-     /tmp/ccXHsu4I.s:1717   .text.HAL_LTDC_SetWindowSize:00000000 HAL_LTDC_SetWindowSize
-     /tmp/ccXHsu4I.s:1822   .text.HAL_LTDC_SetWindowPosition:00000000 $t
-     /tmp/ccXHsu4I.s:1828   .text.HAL_LTDC_SetWindowPosition:00000000 HAL_LTDC_SetWindowPosition
-     /tmp/ccXHsu4I.s:1933   .text.HAL_LTDC_SetPixelFormat:00000000 $t
-     /tmp/ccXHsu4I.s:1939   .text.HAL_LTDC_SetPixelFormat:00000000 HAL_LTDC_SetPixelFormat
-     /tmp/ccXHsu4I.s:2017   .text.HAL_LTDC_SetAlpha:00000000 $t
-     /tmp/ccXHsu4I.s:2023   .text.HAL_LTDC_SetAlpha:00000000 HAL_LTDC_SetAlpha
-     /tmp/ccXHsu4I.s:2101   .text.HAL_LTDC_SetAddress:00000000 $t
-     /tmp/ccXHsu4I.s:2107   .text.HAL_LTDC_SetAddress:00000000 HAL_LTDC_SetAddress
-     /tmp/ccXHsu4I.s:2184   .text.HAL_LTDC_SetPitch:00000000 $t
-     /tmp/ccXHsu4I.s:2190   .text.HAL_LTDC_SetPitch:00000000 HAL_LTDC_SetPitch
-     /tmp/ccXHsu4I.s:2241   .text.HAL_LTDC_SetPitch:0000002c $d
-     /tmp/ccXHsu4I.s:2340   .text.HAL_LTDC_SetPitch:000000a0 $d
-ARM GAS  /tmp/ccXHsu4I.s 			page 122
+     /tmp/ccOzxNW5.s:21     .text.LTDC_SetConfig:00000000 $t
+     /tmp/ccOzxNW5.s:26     .text.LTDC_SetConfig:00000000 LTDC_SetConfig
+     /tmp/ccOzxNW5.s:238    .text.LTDC_SetConfig:00000130 $d
+     /tmp/ccOzxNW5.s:328    .text.LTDC_SetConfig:000001a8 $d
+     /tmp/ccOzxNW5.s:334    .text.HAL_LTDC_MspInit:00000000 $t
+     /tmp/ccOzxNW5.s:340    .text.HAL_LTDC_MspInit:00000000 HAL_LTDC_MspInit
+     /tmp/ccOzxNW5.s:355    .text.HAL_LTDC_Init:00000000 $t
+     /tmp/ccOzxNW5.s:361    .text.HAL_LTDC_Init:00000000 HAL_LTDC_Init
+     /tmp/ccOzxNW5.s:616    .text.HAL_LTDC_Init:000000f0 $d
+     /tmp/ccOzxNW5.s:621    .text.HAL_LTDC_MspDeInit:00000000 $t
+     /tmp/ccOzxNW5.s:627    .text.HAL_LTDC_MspDeInit:00000000 HAL_LTDC_MspDeInit
+     /tmp/ccOzxNW5.s:642    .text.HAL_LTDC_DeInit:00000000 $t
+     /tmp/ccOzxNW5.s:648    .text.HAL_LTDC_DeInit:00000000 HAL_LTDC_DeInit
+     /tmp/ccOzxNW5.s:750    .text.HAL_LTDC_ErrorCallback:00000000 $t
+     /tmp/ccOzxNW5.s:756    .text.HAL_LTDC_ErrorCallback:00000000 HAL_LTDC_ErrorCallback
+     /tmp/ccOzxNW5.s:771    .text.HAL_LTDC_LineEventCallback:00000000 $t
+     /tmp/ccOzxNW5.s:777    .text.HAL_LTDC_LineEventCallback:00000000 HAL_LTDC_LineEventCallback
+     /tmp/ccOzxNW5.s:792    .text.HAL_LTDC_ReloadEventCallback:00000000 $t
+     /tmp/ccOzxNW5.s:798    .text.HAL_LTDC_ReloadEventCallback:00000000 HAL_LTDC_ReloadEventCallback
+     /tmp/ccOzxNW5.s:813    .text.HAL_LTDC_IRQHandler:00000000 $t
+     /tmp/ccOzxNW5.s:819    .text.HAL_LTDC_IRQHandler:00000000 HAL_LTDC_IRQHandler
+     /tmp/ccOzxNW5.s:991    .text.HAL_LTDC_ConfigLayer:00000000 $t
+     /tmp/ccOzxNW5.s:997    .text.HAL_LTDC_ConfigLayer:00000000 HAL_LTDC_ConfigLayer
+     /tmp/ccOzxNW5.s:1093   .text.HAL_LTDC_ConfigColorKeying:00000000 $t
+     /tmp/ccOzxNW5.s:1099   .text.HAL_LTDC_ConfigColorKeying:00000000 HAL_LTDC_ConfigColorKeying
+     /tmp/ccOzxNW5.s:1176   .text.HAL_LTDC_ConfigCLUT:00000000 $t
+     /tmp/ccOzxNW5.s:1182   .text.HAL_LTDC_ConfigCLUT:00000000 HAL_LTDC_ConfigCLUT
+     /tmp/ccOzxNW5.s:1313   .text.HAL_LTDC_EnableColorKeying:00000000 $t
+     /tmp/ccOzxNW5.s:1319   .text.HAL_LTDC_EnableColorKeying:00000000 HAL_LTDC_EnableColorKeying
+     /tmp/ccOzxNW5.s:1381   .text.HAL_LTDC_DisableColorKeying:00000000 $t
+     /tmp/ccOzxNW5.s:1387   .text.HAL_LTDC_DisableColorKeying:00000000 HAL_LTDC_DisableColorKeying
+     /tmp/ccOzxNW5.s:1449   .text.HAL_LTDC_EnableCLUT:00000000 $t
+     /tmp/ccOzxNW5.s:1455   .text.HAL_LTDC_EnableCLUT:00000000 HAL_LTDC_EnableCLUT
+     /tmp/ccOzxNW5.s:1517   .text.HAL_LTDC_DisableCLUT:00000000 $t
+     /tmp/ccOzxNW5.s:1523   .text.HAL_LTDC_DisableCLUT:00000000 HAL_LTDC_DisableCLUT
+     /tmp/ccOzxNW5.s:1585   .text.HAL_LTDC_EnableDither:00000000 $t
+     /tmp/ccOzxNW5.s:1591   .text.HAL_LTDC_EnableDither:00000000 HAL_LTDC_EnableDither
+     /tmp/ccOzxNW5.s:1643   .text.HAL_LTDC_EnableDither:00000030 $d
+     /tmp/ccOzxNW5.s:1648   .text.HAL_LTDC_DisableDither:00000000 $t
+     /tmp/ccOzxNW5.s:1654   .text.HAL_LTDC_DisableDither:00000000 HAL_LTDC_DisableDither
+     /tmp/ccOzxNW5.s:1706   .text.HAL_LTDC_DisableDither:00000030 $d
+     /tmp/ccOzxNW5.s:1711   .text.HAL_LTDC_SetWindowSize:00000000 $t
+     /tmp/ccOzxNW5.s:1717   .text.HAL_LTDC_SetWindowSize:00000000 HAL_LTDC_SetWindowSize
+     /tmp/ccOzxNW5.s:1822   .text.HAL_LTDC_SetWindowPosition:00000000 $t
+     /tmp/ccOzxNW5.s:1828   .text.HAL_LTDC_SetWindowPosition:00000000 HAL_LTDC_SetWindowPosition
+     /tmp/ccOzxNW5.s:1933   .text.HAL_LTDC_SetPixelFormat:00000000 $t
+     /tmp/ccOzxNW5.s:1939   .text.HAL_LTDC_SetPixelFormat:00000000 HAL_LTDC_SetPixelFormat
+     /tmp/ccOzxNW5.s:2017   .text.HAL_LTDC_SetAlpha:00000000 $t
+     /tmp/ccOzxNW5.s:2023   .text.HAL_LTDC_SetAlpha:00000000 HAL_LTDC_SetAlpha
+     /tmp/ccOzxNW5.s:2101   .text.HAL_LTDC_SetAddress:00000000 $t
+     /tmp/ccOzxNW5.s:2107   .text.HAL_LTDC_SetAddress:00000000 HAL_LTDC_SetAddress
+     /tmp/ccOzxNW5.s:2184   .text.HAL_LTDC_SetPitch:00000000 $t
+     /tmp/ccOzxNW5.s:2190   .text.HAL_LTDC_SetPitch:00000000 HAL_LTDC_SetPitch
+     /tmp/ccOzxNW5.s:2241   .text.HAL_LTDC_SetPitch:0000002c $d
+     /tmp/ccOzxNW5.s:2340   .text.HAL_LTDC_SetPitch:000000a0 $d
+ARM GAS  /tmp/ccOzxNW5.s 			page 122
 
 
-     /tmp/ccXHsu4I.s:2346   .text.HAL_LTDC_ProgramLineEvent:00000000 $t
-     /tmp/ccXHsu4I.s:2352   .text.HAL_LTDC_ProgramLineEvent:00000000 HAL_LTDC_ProgramLineEvent
-     /tmp/ccXHsu4I.s:2426   .text.HAL_LTDC_ProgramLineEvent:00000044 $d
-     /tmp/ccXHsu4I.s:2431   .text.HAL_LTDC_Reload:00000000 $t
-     /tmp/ccXHsu4I.s:2437   .text.HAL_LTDC_Reload:00000000 HAL_LTDC_Reload
-     /tmp/ccXHsu4I.s:2503   .text.HAL_LTDC_ConfigLayer_NoReload:00000000 $t
-     /tmp/ccXHsu4I.s:2509   .text.HAL_LTDC_ConfigLayer_NoReload:00000000 HAL_LTDC_ConfigLayer_NoReload
-     /tmp/ccXHsu4I.s:2600   .text.HAL_LTDC_SetWindowSize_NoReload:00000000 $t
-     /tmp/ccXHsu4I.s:2606   .text.HAL_LTDC_SetWindowSize_NoReload:00000000 HAL_LTDC_SetWindowSize_NoReload
-     /tmp/ccXHsu4I.s:2706   .text.HAL_LTDC_SetWindowPosition_NoReload:00000000 $t
-     /tmp/ccXHsu4I.s:2712   .text.HAL_LTDC_SetWindowPosition_NoReload:00000000 HAL_LTDC_SetWindowPosition_NoReload
-     /tmp/ccXHsu4I.s:2812   .text.HAL_LTDC_SetPixelFormat_NoReload:00000000 $t
-     /tmp/ccXHsu4I.s:2818   .text.HAL_LTDC_SetPixelFormat_NoReload:00000000 HAL_LTDC_SetPixelFormat_NoReload
-     /tmp/ccXHsu4I.s:2891   .text.HAL_LTDC_SetAlpha_NoReload:00000000 $t
-     /tmp/ccXHsu4I.s:2897   .text.HAL_LTDC_SetAlpha_NoReload:00000000 HAL_LTDC_SetAlpha_NoReload
-     /tmp/ccXHsu4I.s:2970   .text.HAL_LTDC_SetAddress_NoReload:00000000 $t
-     /tmp/ccXHsu4I.s:2976   .text.HAL_LTDC_SetAddress_NoReload:00000000 HAL_LTDC_SetAddress_NoReload
-     /tmp/ccXHsu4I.s:3048   .text.HAL_LTDC_SetPitch_NoReload:00000000 $t
-     /tmp/ccXHsu4I.s:3054   .text.HAL_LTDC_SetPitch_NoReload:00000000 HAL_LTDC_SetPitch_NoReload
-     /tmp/ccXHsu4I.s:3105   .text.HAL_LTDC_SetPitch_NoReload:0000002c $d
-     /tmp/ccXHsu4I.s:3191   .text.HAL_LTDC_SetPitch_NoReload:00000090 $d
-     /tmp/ccXHsu4I.s:3196   .text.HAL_LTDC_ConfigColorKeying_NoReload:00000000 $t
-     /tmp/ccXHsu4I.s:3202   .text.HAL_LTDC_ConfigColorKeying_NoReload:00000000 HAL_LTDC_ConfigColorKeying_NoReload
-     /tmp/ccXHsu4I.s:3270   .text.HAL_LTDC_EnableColorKeying_NoReload:00000000 $t
-     /tmp/ccXHsu4I.s:3276   .text.HAL_LTDC_EnableColorKeying_NoReload:00000000 HAL_LTDC_EnableColorKeying_NoReload
-     /tmp/ccXHsu4I.s:3333   .text.HAL_LTDC_DisableColorKeying_NoReload:00000000 $t
-     /tmp/ccXHsu4I.s:3339   .text.HAL_LTDC_DisableColorKeying_NoReload:00000000 HAL_LTDC_DisableColorKeying_NoReload
-     /tmp/ccXHsu4I.s:3396   .text.HAL_LTDC_EnableCLUT_NoReload:00000000 $t
-     /tmp/ccXHsu4I.s:3402   .text.HAL_LTDC_EnableCLUT_NoReload:00000000 HAL_LTDC_EnableCLUT_NoReload
-     /tmp/ccXHsu4I.s:3459   .text.HAL_LTDC_DisableCLUT_NoReload:00000000 $t
-     /tmp/ccXHsu4I.s:3465   .text.HAL_LTDC_DisableCLUT_NoReload:00000000 HAL_LTDC_DisableCLUT_NoReload
-     /tmp/ccXHsu4I.s:3522   .text.HAL_LTDC_GetState:00000000 $t
-     /tmp/ccXHsu4I.s:3528   .text.HAL_LTDC_GetState:00000000 HAL_LTDC_GetState
-     /tmp/ccXHsu4I.s:3546   .text.HAL_LTDC_GetError:00000000 $t
-     /tmp/ccXHsu4I.s:3552   .text.HAL_LTDC_GetError:00000000 HAL_LTDC_GetError
-     /tmp/ccXHsu4I.s:245    .text.LTDC_SetConfig:00000137 $d
-     /tmp/ccXHsu4I.s:245    .text.LTDC_SetConfig:00000138 $t
-     /tmp/ccXHsu4I.s:2248   .text.HAL_LTDC_SetPitch:00000033 $d
-     /tmp/ccXHsu4I.s:2248   .text.HAL_LTDC_SetPitch:00000034 $t
-     /tmp/ccXHsu4I.s:3112   .text.HAL_LTDC_SetPitch_NoReload:00000033 $d
-     /tmp/ccXHsu4I.s:3112   .text.HAL_LTDC_SetPitch_NoReload:00000034 $t
+     /tmp/ccOzxNW5.s:2346   .text.HAL_LTDC_ProgramLineEvent:00000000 $t
+     /tmp/ccOzxNW5.s:2352   .text.HAL_LTDC_ProgramLineEvent:00000000 HAL_LTDC_ProgramLineEvent
+     /tmp/ccOzxNW5.s:2426   .text.HAL_LTDC_ProgramLineEvent:00000044 $d
+     /tmp/ccOzxNW5.s:2431   .text.HAL_LTDC_Reload:00000000 $t
+     /tmp/ccOzxNW5.s:2437   .text.HAL_LTDC_Reload:00000000 HAL_LTDC_Reload
+     /tmp/ccOzxNW5.s:2503   .text.HAL_LTDC_ConfigLayer_NoReload:00000000 $t
+     /tmp/ccOzxNW5.s:2509   .text.HAL_LTDC_ConfigLayer_NoReload:00000000 HAL_LTDC_ConfigLayer_NoReload
+     /tmp/ccOzxNW5.s:2600   .text.HAL_LTDC_SetWindowSize_NoReload:00000000 $t
+     /tmp/ccOzxNW5.s:2606   .text.HAL_LTDC_SetWindowSize_NoReload:00000000 HAL_LTDC_SetWindowSize_NoReload
+     /tmp/ccOzxNW5.s:2706   .text.HAL_LTDC_SetWindowPosition_NoReload:00000000 $t
+     /tmp/ccOzxNW5.s:2712   .text.HAL_LTDC_SetWindowPosition_NoReload:00000000 HAL_LTDC_SetWindowPosition_NoReload
+     /tmp/ccOzxNW5.s:2812   .text.HAL_LTDC_SetPixelFormat_NoReload:00000000 $t
+     /tmp/ccOzxNW5.s:2818   .text.HAL_LTDC_SetPixelFormat_NoReload:00000000 HAL_LTDC_SetPixelFormat_NoReload
+     /tmp/ccOzxNW5.s:2891   .text.HAL_LTDC_SetAlpha_NoReload:00000000 $t
+     /tmp/ccOzxNW5.s:2897   .text.HAL_LTDC_SetAlpha_NoReload:00000000 HAL_LTDC_SetAlpha_NoReload
+     /tmp/ccOzxNW5.s:2970   .text.HAL_LTDC_SetAddress_NoReload:00000000 $t
+     /tmp/ccOzxNW5.s:2976   .text.HAL_LTDC_SetAddress_NoReload:00000000 HAL_LTDC_SetAddress_NoReload
+     /tmp/ccOzxNW5.s:3048   .text.HAL_LTDC_SetPitch_NoReload:00000000 $t
+     /tmp/ccOzxNW5.s:3054   .text.HAL_LTDC_SetPitch_NoReload:00000000 HAL_LTDC_SetPitch_NoReload
+     /tmp/ccOzxNW5.s:3105   .text.HAL_LTDC_SetPitch_NoReload:0000002c $d
+     /tmp/ccOzxNW5.s:3191   .text.HAL_LTDC_SetPitch_NoReload:00000090 $d
+     /tmp/ccOzxNW5.s:3196   .text.HAL_LTDC_ConfigColorKeying_NoReload:00000000 $t
+     /tmp/ccOzxNW5.s:3202   .text.HAL_LTDC_ConfigColorKeying_NoReload:00000000 HAL_LTDC_ConfigColorKeying_NoReload
+     /tmp/ccOzxNW5.s:3270   .text.HAL_LTDC_EnableColorKeying_NoReload:00000000 $t
+     /tmp/ccOzxNW5.s:3276   .text.HAL_LTDC_EnableColorKeying_NoReload:00000000 HAL_LTDC_EnableColorKeying_NoReload
+     /tmp/ccOzxNW5.s:3333   .text.HAL_LTDC_DisableColorKeying_NoReload:00000000 $t
+     /tmp/ccOzxNW5.s:3339   .text.HAL_LTDC_DisableColorKeying_NoReload:00000000 HAL_LTDC_DisableColorKeying_NoReload
+     /tmp/ccOzxNW5.s:3396   .text.HAL_LTDC_EnableCLUT_NoReload:00000000 $t
+     /tmp/ccOzxNW5.s:3402   .text.HAL_LTDC_EnableCLUT_NoReload:00000000 HAL_LTDC_EnableCLUT_NoReload
+     /tmp/ccOzxNW5.s:3459   .text.HAL_LTDC_DisableCLUT_NoReload:00000000 $t
+     /tmp/ccOzxNW5.s:3465   .text.HAL_LTDC_DisableCLUT_NoReload:00000000 HAL_LTDC_DisableCLUT_NoReload
+     /tmp/ccOzxNW5.s:3522   .text.HAL_LTDC_GetState:00000000 $t
+     /tmp/ccOzxNW5.s:3528   .text.HAL_LTDC_GetState:00000000 HAL_LTDC_GetState
+     /tmp/ccOzxNW5.s:3546   .text.HAL_LTDC_GetError:00000000 $t
+     /tmp/ccOzxNW5.s:3552   .text.HAL_LTDC_GetError:00000000 HAL_LTDC_GetError
+     /tmp/ccOzxNW5.s:245    .text.LTDC_SetConfig:00000137 $d
+     /tmp/ccOzxNW5.s:245    .text.LTDC_SetConfig:00000138 $t
+     /tmp/ccOzxNW5.s:2248   .text.HAL_LTDC_SetPitch:00000033 $d
+     /tmp/ccOzxNW5.s:2248   .text.HAL_LTDC_SetPitch:00000034 $t
+     /tmp/ccOzxNW5.s:3112   .text.HAL_LTDC_SetPitch_NoReload:00000033 $d
+     /tmp/ccOzxNW5.s:3112   .text.HAL_LTDC_SetPitch_NoReload:00000034 $t
 
 UNDEFINED SYMBOLS
 HAL_GetTick

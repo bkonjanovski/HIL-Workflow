@@ -209,7 +209,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+    state = HAL_GPIO_ReadPin(CUSTOM_GPIO_Port, CUSTOM_Pin); 
     if (state == GPIO_PIN_SET){
 	HAL_GPIO_WritePin(GPIOI, GPIO_PIN_1, GPIO_PIN_SET);
 	HAL_UART_Transmit(&huart1, tx_buffer, sizeof(tx_buffer), 5000);
