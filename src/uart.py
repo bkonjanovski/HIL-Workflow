@@ -20,7 +20,7 @@ def check_gpio_signal():
     time.sleep(3)
     GPIO.output(17, GPIO.HIGH)
     time.sleep(3)
-    res = ser.read()
+    res = ser.read(7)
     return res.decode()
     GPIO.output(17, GPIO.LOW)
 

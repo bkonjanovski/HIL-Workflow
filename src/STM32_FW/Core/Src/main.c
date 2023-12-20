@@ -205,7 +205,7 @@ int main(void)
   uint8_t rx_done = 0;
 
   HAL_GPIO_WritePin(CUSTOM_GPIO_Port, CUSTOM_Pin, GPIO_PIN_RESET);
-  GPIO_PinState prev_state, state = HAL_GPIO_ReadPin(CUSTOM_GPIO_Port, CUSTOM_Pin);;
+  GPIO_PinState prev_state, state = 0;
 
   while (1)
   {
