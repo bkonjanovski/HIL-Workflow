@@ -203,30 +203,23 @@ int main(void)
   const uint8_t tx_buffer [] = "TEST-TX\r\n";
   uint8_t rx_buffer [1];
   uint8_t rx_done = 0;
-
-  GPIO_PinState state;	
-  HAL_GPIO_WritePin(CUSTOM_GPIO_Port, CUSTOM_Pin, GPIO_PIN_RESET); 
-  HAL_Delay(4000);
+  HAL_GPIO_WritePin(CUSTOM_GPIO_Port, CUSTOM_Pin, GPIO_PIN_RESET);
+  GPIO_PinState state;
 
   while (1)
   {
     /* USER CODE END WHILE */
-    state = HAL_GPIO_ReadPin(CUSTOM_GPIO_Port, CUSTOM_Pin); 
+    /* USER CODE BEGIN 3 */
+    state = HAL_GPIO_ReadPin(CUSTOM_GPIO_Port, CUSTOM_Pin);
     if (state == GPIO_PIN_SET){
-	HAL_GPIO_WritePin(GPIOI, GPIO_PIN_1, GPIO_PIN_SET);
-	HAL_UART_Transmit(&huart1, tx_buffer, sizeof(tx_buffer), 5000);
-	HAL_Delay(4000);
-	}
-	  else {
-        HAL_GPIO_WritePin(GPIOI, GPIO_PIN_1, GPIO_PIN_RESET);
-	HAL_UART_Transmit(&huart1, 0, 1, 5000);
+		HAL_GPIO_WritePin(GPIOI, GPIO_PIN_1, GPIO_PIN_SET);
+		HAL_UART_Transmit(&huart1, tx_buffer, sizeof(tx_buffer), 5000);
+	} else {
+		HAL_GPIO_WritePin(GPIOI, GPIO_PIN_1, GPIO_PIN_RESET);
+		//HAL_UART_Transmit(&huart1, 0, 1, 5000);
 	}
 
     MX_USB_HOST_Process();
-
-    /* USER CODE BEGIN 3 */
-
-	
   }
   /* USER CODE END 3 */
 }
@@ -1412,12 +1405,6 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(OTG_HS_OverCurrent_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : CUSTOM_Pin */
-  GPIO_InitStruct.Pin = CUSTOM_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(CUSTOM_GPIO_Port, &GPIO_InitStruct);
-
   /*Configure GPIO pins : ULPI_D7_Pin ULPI_D6_Pin ULPI_D5_Pin ULPI_D3_Pin
                            ULPI_D2_Pin ULPI_D1_Pin ULPI_D4_Pin */
   GPIO_InitStruct.Pin = ULPI_D7_Pin|ULPI_D6_Pin|ULPI_D5_Pin|ULPI_D3_Pin
@@ -1544,13 +1531,19 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Alternate = GPIO_AF10_OTG_HS;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : ARDUINO_MISO_D12_Pin ARDUINO_MOSI_PWM_D11_Pin */
-  GPIO_InitStruct.Pin = ARDUINO_MISO_D12_Pin|ARDUINO_MOSI_PWM_D11_Pin;
+  /*Configure GPIO pin : CUSTOM_Pin */
+  GPIO_InitStruct.Pin = CUSTOM_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
+  HAL_GPIO_Init(CUSTOM_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : ARDUINO_MOSI_PWM_D11_Pin */
+  GPIO_InitStruct.Pin = ARDUINO_MOSI_PWM_D11_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   GPIO_InitStruct.Alternate = GPIO_AF5_SPI2;
-  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+  HAL_GPIO_Init(ARDUINO_MOSI_PWM_D11_GPIO_Port, &GPIO_InitStruct);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */
