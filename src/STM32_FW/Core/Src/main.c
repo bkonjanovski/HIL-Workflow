@@ -206,6 +206,7 @@ int main(void)
 
   GPIO_PinState state;	
   HAL_GPIO_WritePin(CUSTOM_GPIO_Port, CUSTOM_Pin, GPIO_PIN_RESET); 
+  HAL_Delay(4000);
 
   while (1)
   {
