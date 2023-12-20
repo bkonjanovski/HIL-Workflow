@@ -218,7 +218,7 @@ int main(void)
 	} else {
 		HAL_GPIO_WritePin(GPIOI, GPIO_PIN_1, GPIO_PIN_RESET);
 	}
-    prev_state = state
+    prev_state = state;
     MX_USB_HOST_Process();
   }
   /* USER CODE END 3 */
