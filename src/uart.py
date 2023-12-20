@@ -6,6 +6,7 @@ ser = serial.Serial('/dev/ttyACM0', 115200)
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 GPIO.setup(17,GPIO.OUT)
+GPIO.output(17, GPIO.LOW)
  
 #def echo_serial(input: bytes):
 #       if not isinstance(input, (bytes)) or len(input) != 1:  
