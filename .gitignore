@@ -1,0 +1,5 @@
+/src/STM32_FW/build
+/src/STM32_FW/_pycache_
+/.coverage
+/.pytest_cache
+
