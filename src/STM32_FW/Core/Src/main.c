@@ -203,22 +203,22 @@ int main(void)
   const uint8_t tx_buffer [] = "TEST-TX\r\n";
   uint8_t rx_buffer [1];
   uint8_t rx_done = 0;
+
   HAL_GPIO_WritePin(CUSTOM_GPIO_Port, CUSTOM_Pin, GPIO_PIN_RESET);
-  GPIO_PinState state;
+  GPIO_PinState prev_state, state;
 
   while (1)
   {
     /* USER CODE END WHILE */
     /* USER CODE BEGIN 3 */
     state = HAL_GPIO_ReadPin(CUSTOM_GPIO_Port, CUSTOM_Pin);
-    if (state == GPIO_PIN_SET){
+    if (state != prev_state){
 		HAL_GPIO_WritePin(GPIOI, GPIO_PIN_1, GPIO_PIN_SET);
 		HAL_UART_Transmit(&huart1, tx_buffer, sizeof(tx_buffer), 5000);
 	} else {
 		HAL_GPIO_WritePin(GPIOI, GPIO_PIN_1, GPIO_PIN_RESET);
-		//HAL_UART_Transmit(&huart1, 0, 1, 5000);
 	}
-
+    prev_state = state
     MX_USB_HOST_Process();
   }
   /* USER CODE END 3 */
