@@ -204,7 +204,8 @@ int main(void)
   uint8_t rx_buffer [1];
   uint8_t rx_done = 0;
 
-  GPIO_PinState state;
+  GPIO_PinState state;	
+  HAL_GPIO_WritePin(CUSTOM_GPIO_Port, CUSTOM_Pin, GPIO_PIN_RESET); 
 
   while (1)
   {
