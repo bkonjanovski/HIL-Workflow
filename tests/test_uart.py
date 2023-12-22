@@ -1,5 +1,5 @@
 import pytest  
-from src.uart import check_gpio_signal
+from src.uart import check_gpio_signal, check_pwm_signal
 import time
 
 def ignore_gpio_sgnal():  
