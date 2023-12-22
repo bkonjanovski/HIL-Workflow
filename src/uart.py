@@ -28,7 +28,7 @@ def check_gpio_signal():
 def check_pwm_signal(): 
 	pwm = HardwarePWM(pwm_channel=0, hz=500)
 	pwm.start(50) 
-	sleep(5)
+	time.sleep(5)
 	pwm.stop()
 	res = ser.read(15)
 	return res.decode()
