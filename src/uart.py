@@ -1,6 +1,7 @@
 import serial
 import time
 import RPi.GPIO as GPIO
+from rpi_hardware_pwm import HardwarePWM
 
 ser = serial.Serial('/dev/ttyACM0', 115200)
 GPIO.setmode(GPIO.BCM)
@@ -23,5 +24,15 @@ def check_gpio_signal():
     res = ser.read(7)
     return res.decode()
     GPIO.output(17, GPIO.LOW)
+
+def check_pwm_signal(): 
+	pwm = HardwarePWM(pwm_channel=0, hz=500)
+	pwm.start(50) 
+	sleep(5)
+	pwm.stop()
+	res = ser.read(15)
+	return res.decode()
+
+
 
 

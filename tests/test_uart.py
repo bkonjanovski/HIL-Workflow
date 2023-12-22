@@ -2,9 +2,13 @@ import pytest
 from src.uart import check_gpio_signal
 import time
 
-def test_gpio_sgnal():  
+def ignore_gpio_sgnal():  
      time.sleep(3)
      assert check_gpio_signal() == "TEST-TX"
+     
+def test_pwm_sgnal():  
+     time.sleep(3)
+     assert check_pwm_signal() == "Frequency: 500\mDuty Cycle: 50"
 
 #def test_echo_single_byte():  
 #    time.sleep(3)
