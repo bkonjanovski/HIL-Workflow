@@ -8,7 +8,7 @@ def ignore_gpio_sgnal():
      
 def test_pwm_sgnal():  
      time.sleep(3)
-     assert check_pwm_signal() == "Frequency: 500\mDuty Cycle: 50"
+     assert check_pwm_signal() == "\r\n\nFrequency:  500\r\nDuty Cycle: 50"
 
 #def test_echo_single_byte():  
 #    time.sleep(3)

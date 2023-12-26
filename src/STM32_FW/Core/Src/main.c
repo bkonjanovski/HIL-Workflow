@@ -138,6 +138,18 @@ void MX_USB_HOST_Process(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+uint32_t frequency, duty_cycle;
+uint32_t capture_value;
+void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim){
+	if(htim ->Channel == HAL_TIM_ACTIVE_CHANNEL_1){
+		capture_value = HAL_TIM_ReadCapturedValue(htim, TIM_CHANNEL_1);
+		if(capture_value){
+			frequency = SystemCoreClock /(2*capture_value);
+			duty_cycle = 1000 * HAL_TIM_ReadCapturedValue(htim, TIM_CHANNEL_2) / capture_value;HAL_GPIO_WritePin(GPIOI, GPIO_PIN_1, GPIO_PIN_SET);
+			HAL_GPIO_WritePin(GPIOI, GPIO_PIN_1, GPIO_PIN_SET);
+		}
+	}
+}
 
 /* USER CODE END 0 */
 
@@ -197,17 +209,45 @@ int main(void)
   MX_FATFS_Init();
   MX_USB_HOST_Init();
   /* USER CODE BEGIN 2 */
+  char tx_buffer [32];
+  int size_len;
+
+//  size_len = sprintf(tx_buffer, "Frequency: ");
+//  HAL_UART_Transmit(&huart1, (uint8_t*)tx_buffer, size_len, 5000);
+//  size_len = sprintf(tx_buffer, "%u", frequency);
+//  HAL_UART_Transmit(&huart1, (uint8_t*)tx_buffer, size_len, 5000);
+//
+//  size_len = sprintf(tx_buffer, "\r\nDuty Cycle: ");
+//  HAL_UART_Transmit(&huart1, (uint8_t*)tx_buffer, size_len, 5000);
+//  size_len = sprintf(tx_buffer, "%u", duty_cycle);
+//  HAL_UART_Transmit(&huart1, (uint8_t*)tx_buffer, size_len, 5000);
 
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  uint32_t prev_frequency, prev_duty = 0;
   while (1)
   {
     /* USER CODE END WHILE */
     MX_USB_HOST_Process();
 
     /* USER CODE BEGIN 3 */
+    if(prev_frequency != frequency || prev_duty != duty_cycle){
+        HAL_GPIO_WritePin(GPIOI, GPIO_PIN_1, GPIO_PIN_RESET);
+        size_len = sprintf(tx_buffer, "\r\n\nFrequency:  ");
+        HAL_UART_Transmit(&huart1, (uint8_t*)tx_buffer, size_len, 5000);
+        size_len = sprintf(tx_buffer, "%u", frequency);
+        HAL_UART_Transmit(&huart1, (uint8_t*)tx_buffer, size_len, 5000);
+
+        size_len = sprintf(tx_buffer, "\r\nDuty Cycle: ");
+        HAL_UART_Transmit(&huart1, (uint8_t*)tx_buffer, size_len, 5000);
+        size_len = sprintf(tx_buffer, "%u", duty_cycle);
+        HAL_UART_Transmit(&huart1, (uint8_t*)tx_buffer, size_len, 5000);
+
+        prev_frequency = frequency;
+        prev_duty = duty_cycle;
+    }
   }
   /* USER CODE END 3 */
 }
@@ -1079,7 +1119,8 @@ static void MX_TIM2_Init(void)
     Error_Handler();
   }
   /* USER CODE BEGIN TIM2_Init 2 */
-
+  HAL_TIM_IC_Start_IT(&htim2, TIM_CHANNEL_1);
+  HAL_TIM_IC_Start_IT(&htim2, TIM_CHANNEL_2);
   /* USER CODE END TIM2_Init 2 */
 
 }
