@@ -29,7 +29,7 @@ def check_pwm_signal():
 	pwm = HardwarePWM(pwm_channel=0, hz=500)
 	pwm.start(50) 
 	time.sleep(10)
-	res = ser.read()
+	res = ser.read(30)
 	return res.decode()
 	pwm.stop()
 
