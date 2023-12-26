@@ -235,12 +235,12 @@ int main(void)
     /* USER CODE BEGIN 3 */
     if(prev_frequency != frequency || prev_duty != duty_cycle){
         HAL_GPIO_WritePin(GPIOI, GPIO_PIN_1, GPIO_PIN_RESET);
-        size_len = sprintf(tx_buffer, "\r\n\nFrequency:  ");
+        size_len = sprintf(tx_buffer, "Frequency:  ");
         HAL_UART_Transmit(&huart1, (uint8_t*)tx_buffer, size_len, 5000);
         size_len = sprintf(tx_buffer, "%u", frequency);
         HAL_UART_Transmit(&huart1, (uint8_t*)tx_buffer, size_len, 5000);
 
-        size_len = sprintf(tx_buffer, "\r\nDuty Cycle: ");
+        size_len = sprintf(tx_buffer, " Duty Cycle: ");
         HAL_UART_Transmit(&huart1, (uint8_t*)tx_buffer, size_len, 5000);
         size_len = sprintf(tx_buffer, "%u", duty_cycle);
         HAL_UART_Transmit(&huart1, (uint8_t*)tx_buffer, size_len, 5000);
