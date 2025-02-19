@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v3  
       - name: Install dependencies  
         run: |  
-          python -m pip install --upgrade pip  
+          python -m pip install --upgrade pip --break-system-packages.
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi; pip install coverage; pip install pytest; export PYTHONIOENCODING=utf8;
       - name: Build and Flash STM32_FW 
         run: |  
